@@ -58,49 +58,98 @@
 统一链接是为了能够在网页中点击链接直接跳转到app中的某个页面
 
 #### 开启VPN 
-- https://www.nsloon.com/openloon/on
+
+```
+https://www.nsloon.com/openloon/on
+```
 
 #### 关闭VPN
-- https://www.nsloon.com/openloon/off
+
+```
+https://www.nsloon.com/openloon/off
+```
 
 #### 编辑配置文件
-- https://www.nsloon.com/openloon/editconfig
+
+```
+https://www.nsloon.com/openloon/editconfig
+```
 
 #### 切换流量模式为全局直连
-- https://www.nsloon.com/openloon/flowmodel=direct
+
+```
+https://www.nsloon.com/openloon/flowmodel=direct
+```
 
 #### 切换流量模式为自动分流
-- https://www.nsloon.com/openloon/flowmodel=filter
+
+```
+https://www.nsloon.com/openloon/flowmodel=filter
+```
 
 #### 切换流量模式为全局代理
-- https://www.nsloon.com/openloon/flowmodel=proxy
+
+```
+https://www.nsloon.com/openloon/flowmodel=proxy
+```
 
 #### 设置代理模式为TUN Only
-- https://www.nsloon.com/openloon/proxymode=tun
+
+```
+https://www.nsloon.com/openloon/proxymode=tun
+
+```
 
 #### 设置代理模式为HTTP Proxy & TUN
-- https://www.nsloon.com/openloon/proxymode=mix
+
+```
+https://www.nsloon.com/openloon/proxymode=mix
+```
 
 #### 安装远端配置文件
-- https://www.nsloon.com/openloon/import?sub=encode(url)
+
+```
+https://www.nsloon.com/openloon/import?sub=encode(url)
+```
 
 #### 导入订阅节点
-- https://www.nsloon.com/openloon/import?nodelist=encode(url)
+
+```
+https://www.nsloon.com/openloon/import?nodelist=encode(url)
+```
 
 #### 导入订阅规则
-- https://www.nsloon.com/openloon/import?rules=encode(url)
+
+```
+https://www.nsloon.com/openloon/import?rules=encode(url)
+```
 
 #### 导入插件
-- https://www.nsloon.com/openloon/import?plugin=encode(url)
+
+```
+https://www.nsloon.com/openloon/import?plugin=encode(url)
+```
 
 #### 导入图标集
-- https://www.nsloon.com/openloon/import?iconset=encode(url)
+
+```
+https://www.nsloon.com/openloon/import?iconset=encode(url)
+```
 
 #### 导入geoip数据库
-- https://www.nsloon.com/openloon/import?geoip=encode(url)
+
+```
+https://www.nsloon.com/openloon/import?geoip=encode(url)
+```
 
 #### 导入解析器
-- https://www.nsloon.com/openloon/import?parser=encode(url)
+
+```
+https://www.nsloon.com/openloon/import?parser=encode(url)
+```
 
 #### 更新所有订阅资源
-- https://www.nsloon.com/openloon/update?sub=all
+
+```
+https://www.nsloon.com/openloon/update?sub=all
+```
