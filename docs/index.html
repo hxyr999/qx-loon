@@ -20,7 +20,7 @@
     // 检测设备是否支持 prefers-color-scheme 属性，并检查当前颜色模式是否为暗色模式
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       // 如果是暗色模式，则加载暗色主题样式
-      document.getElementById('theme').href = "cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.css";
+      document.getElementById('theme').href = "//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css";
     }
 
     // 设置 Docsify 配置
@@ -91,8 +91,6 @@
   </script>
   <!-- 引入 Docsify 核心库 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <!-- 引入 深色主题 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.min.css">
   <!-- 引入 搜索插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 引入 图片缩放插件 -->
