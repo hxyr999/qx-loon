@@ -25,65 +25,51 @@
 
     // 设置 Docsify 配置
     window.$docsify = {
-    // logo
-    // logo: '/_media/lucy.svg',
-    // 封面
-    coverpage: true,
-    // 是否加载侧边栏
-    loadSidebar: true,
-    // 侧边栏最大级别
-    subMaxLevel: 4,
-    // 自动目录
-    // maxLevel: 4,
-    // 是否加载导航栏
-    loadNavbar: true,
-    // 网站名称
-    name: '',
-    // 仓库地址
-    // repo: 'https://github.com/Repcz/Tool',
+      // logo
+      // logo: '/_media/lucy.svg',
+      // 封面
+      coverpage: true,
+      // 是否加载侧边栏
+      loadSidebar: true,
+      // 侧边栏最大级别
+      subMaxLevel: 4,
+      // 自动目录
+      // maxLevel: 4,
+      // 是否加载导航栏
+      loadNavbar: true,
+      // 网站名称
+      name: '',
+      // 仓库地址
+      // repo: 'https://github.com/Repcz/Tool',
 
-    // 复制按钮中文
-    copyCode: {
-      buttonText: '点，复制！',
-      errorText: '出错了！',
-      successText: 'OK!'
-    },
-
-
-    // 搜索框
-    search: {
-      paths: 'auto',
-      placeholder: '🔍 不是很好用的搜索',
-      noData: '😒 找不到结果',
-      // Headline depth, 1 - 6
-      depth: 6,
-      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-    },
-
-    // 章节按钮
-    pagination: {
-      previousText: '上一章节',
-      // or
-      nextText: {
-        '/': '下一章节'
+      // 复制按钮中文
+      copyCode: {
+        buttonText: '点，复制！',
+        errorText: '出错了！',
+        successText: 'OK!'
       },
-      crossChapter: true,
-      crossChapterText: true,
-    },    
 
-    // 黑暗模式
-    darkMode: {
-      dark: {
-        background: "#1c2022",
-        toggleBtnBg: "#34495e",
-        textColor: "#b4b4b4"
+
+      // 搜索框
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 不是很好用的搜索',
+        noData: '😒 找不到结果',
+        // Headline depth, 1 - 6
+        depth: 6,
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
       },
-      light: {
-        background: "white",
-        toggleBtnBg: "var(--theme-color)",
-        textColor: "var(--theme-color)"
+
+      // 章节按钮
+      pagination: {
+        previousText: '上一章节',
+        // or
+        nextText: {
+          '/': '下一章节'
+        },
+        crossChapter: true,
+        crossChapterText: true,
       }
-    },
   }
   </script>
   <!-- 引入 Docsify 核心库 -->
