@@ -149,11 +149,10 @@ disable-udp-ports = 443,80
 
 此选项目前仅能通过 UI 或 URL Scheme 修改
 
-设置代理模式为 TUN Only
-- https://www.nsloon.com/openloon/proxymode=tun
+- 设置代理模式为 [TUN Only](https://www.nsloon.com/openloon/proxymode=tun)
 
-设置代理模式为 HTTP Proxy & TUN
-- https://www.nsloon.com/openloon/proxymode=mix
+- 设置代理模式为 [HTTP Proxy & TUN](https://www.nsloon.com/openloon/proxymode=mix)
+
 
 
 #### 11.1.15 网络共享设置
