@@ -5,7 +5,7 @@
 # Lᴜᴄʏ Tᴏᴏʟ
 
 
-[GitHub](https://github.com/Repcz/Tool)
-[Telegram](https://t.me/QVQ_Channel)
-[Get Started](#tool)
+[𝗚𝗶𝘁𝗛𝘂𝗯](https://github.com/Repcz/Tool)
+[𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺](https://t.me/QVQ_Channel)
+[𝗦𝘁𝗮𝗿𝘁](#tool)
 
