@@ -1,6 +1,6 @@
 
 
-## Clash Verge 本地配置使用方法
+## 本地配置使用方法
 
 > 此配置的意义在于：自定义配置，无需使用订阅转换，且不会被机场下发的配置覆盖。
 >
@@ -60,7 +60,7 @@ Mihomo(ClashMeta)内核支持解析base64格式的订阅，可按照下图提示
 
 ---
 
-### 多机场配置
+## 多机场配置
 
 参考上方的说明将机场订阅填入，如果还需要写入更多机场，可以参照下方 #按需添加代理提供商（proxy-provider）
 
@@ -102,14 +102,15 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Meta/ClashVerge_③.yaml
 ```
 
 ---
-### 解除UWP应用回环限制
+
+## 解除UWP应用回环限制
 
 * 应用目录的`resources文件夹`下双击运行 `enableLoopback.exe`
 * 全选软件(Ctrl+A)，勾选前方任意选项框，点击工具栏的 **Save Changes**
 
 ---
 
-### 按需设置 TUN模式
+## 按需设置 TUN模式
 > 由于部分软件并不使用系统代理，因此需要设置TUN模式强制接管这些流量，比如Emby客户端
 
 * 点击左侧 **设置** ，点击 **服务模式** 右边的盾牌🛡 → 点击 **INSTALL**，
@@ -126,7 +127,7 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Meta/ClashVerge_③.yaml
 <details>
   <summary>修改策略组类型</summary>
 
-### 按需修改策略组类型（自动选择/手动选择/故障回退/负载均衡）
+## 按需修改策略组类型
 
 默认地区/国家策略组，全部为自动选择最低延迟，测试地址为：`http://www.gstatic.com/generate_204` , 测试间隔：900秒
 
@@ -138,6 +139,7 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Meta/ClashVerge_③.yaml
 - `负载均衡`策略组对应 `*load-balance`
 
 eg:
+
 ```yaml
 proxy-groups:
 ...
@@ -146,6 +148,7 @@ proxy-groups:
 ```
 
 👇
+
 ```yaml
 proxy-groups:
 ...
@@ -160,7 +163,7 @@ proxy-groups:
 <details>
   <summary>添加策略组</summary>
 
-### 按需添加策略组
+## 按需添加策略组
 
 如果需要添加**筛选节点用的地区/国家策略组**，可以按照如下格式将策略组填写在`proxy-groups`下方
 
@@ -183,11 +186,13 @@ proxy-groups:
 这样所有策略组中带有`*pg`的策略组都会添加此策略组
 
 eg:
+
 ```yaml
 pg: &pg {type: select, proxies: [🚀 手动切换, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点,  🇨🇳 台湾节点, ♻️ 自动选择, ⚠️ 故障转移, DIRECT]}
 ```
 
 👇
+
 ```yaml
 ...
 pg: &pg {type: select, proxies: [🚀 手动切换, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点,  🇨🇳 台湾节点, 地区策略组名称1, ♻️ 自动选择, ⚠️ 故障转移, DIRECT]}
@@ -232,7 +237,7 @@ proxy-groups:
 <details>
   <summary>添加代理提供商（proxy-provider）</summary>
 
-### 按需添加代理提供商（proxy-provider）
+## 按需添加代理提供商（proxy-provider）
 
 > 可以参考上方的多机场配置
 
@@ -247,6 +252,7 @@ proxy-providers:
 ```
 
 👇
+
 ```yaml
 proxy-providers:
   Subscribe: {<<: *p, path: ./proxy-providers/Sub.yaml, url: http://your-service-provider}
@@ -264,7 +270,7 @@ proxy-providers:
 <details>
   <summary>添加分流规则</summary>
 
-### 按需添加分流规则
+## 按需添加分流规则
 
 > 以下内容参考：
 > - [Clash 规则](https://clash.wiki/configuration/rules.html)
@@ -310,6 +316,7 @@ rules:
 以下部分介绍了部分规则类型及其使用方法，Mihomo(ClashMeta)内核的更多详细规则见[虚空终端 WIKI](https://wiki.metacubex.one/config/rules/)
 
 - DOMAIN 域名
+
 ```yaml
 rules:
   - DOMAIN,www.google.com,policy 
@@ -317,6 +324,7 @@ rules:
 域名规则，如果请求的域完全匹配，则会匹配上此规则
 
 - DOMAIN-SUFFIX 域名后缀
+
 ```yaml
 rules:
   - DOMAIN-SUFFIX,youtube.com,policy 
@@ -327,6 +335,7 @@ rules:
 
 
 - DOMAIN-KEYWORD 域名关键词
+
 ```yaml
 rules:
   - DOMAIN-KEYWORD,google,policy 
@@ -346,6 +355,7 @@ rules:
 - GEOIP
 
 国家IP代码规则,匹配集合内相应的IP范围
+
 ```yaml
 rules:
   - GEOIP,CN,DIRECT
@@ -373,6 +383,7 @@ IP-CIDR6 规则用于根据数据包的目标 IPv6 地址路由数据包.
 >WARNING
 >
 >使用这种规则时, Clash 将域名解析为 IPv6 地址. 如果要跳过 DNS 解析, 请使用 no-resolve 选项.
+
 ```yaml
 rules:
   - IP-CIDR6,2620:0:2d0:200::7/32,policy 
@@ -407,6 +418,7 @@ RULE-SET 规则用于根据 Rule Providers 规则集 的结果路由数据包. �
 >WARNING
 >
 >使用 RULE-SET 时, 当规则集的类型为 IPCIDR , Clash 将解析域名以获取 IP 地址. 如果要跳过 DNS 解析, 请使用 no-resolve 选项.
+
 ```yaml
 rules:
   - RULE-SET,my-rule-provider,DIRECT 
@@ -430,7 +442,7 @@ rules:
 <details>
   <summary>添加规则集</summary>
 
-### 按需添加规则集
+## 按需添加规则集
 
 规则集添加可以按以下格式进行添加，注意：前面有两个空格，不要使用Tab进行缩进，使用英文`,` ，符号后有空格
 
