@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Meta/Online_Full_NoAuto.ini
 ### 3. 选择后端地址并生成订阅
 * 强烈建议使用自建后端，自建后端订阅转换可以有效防止订阅泄露以及规则下载不全等问题，具体方法见[自建subconverter订阅转换](https://github.com/Repcz/Tool/tree/X/subconverter)
 
-![4](https://github.com/Repcz/Tool/blob/X/Clash/Meta/Photo/4.PNG)
+![4](https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Meta/Photo/4.PNG)
 
 ### 导入Clash Verge
 
