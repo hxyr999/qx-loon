@@ -99,7 +99,7 @@ https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
 
 ### 安装模块
 
-!> 模块功能大多依赖于 第5步 的 证书安装与信任
+!> 模块功能大多依赖于 [证书设置](#证书设置)
 
 
 底部工具栏 **配置** → **模块** → 右上角 `➕`
