@@ -262,17 +262,13 @@ https://example.com/reject.txt, tag=🛡️ Block Ads, force-policy=reject, upda
 
 - `enabled` 是否启用该分流文件，若不使用可改为 `false`；
 
-#### 3.3.2 UI添加
 
-默认UI情况下，长按顶部「分流规则」按钮，即可进入**添加远程(引用)规则**页面
 
-也可点击右下角风车 → 找到「分流」区域-「资源规则」
+!> 资源路径，需要填写**raw格式**
 
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI2-2.jpg" width="900">
+<details>
+  <summary> 点此查看raw格式教程</summary>
 
-⚠️ 注意：
-
-- 资源路径，需要填写**raw格式**
 
 以下方的链接举例(这是个网页，不是真正能使用的资源链接)：
 `https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
@@ -289,6 +285,46 @@ https://example.com/reject.txt, tag=🛡️ Block Ads, force-policy=reject, upda
 
 或者将链接里的`blob`⁠修改为`raw`：
 `https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
+
+
+</details>
+
+
+#### 3.3.2 UI添加
+
+默认UI情况下，长按顶部「分流规则」按钮，即可进入**添加远程(引用)规则**页面
+
+也可点击右下角风车 → 找到「分流」区域-「资源规则」
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI2-2.jpg" width="900">
+
+
+
+!> 资源路径，需要填写**raw格式**
+
+<details>
+  <summary> 点此查看raw格式教程</summary>
+
+
+以下方的链接举例(这是个网页，不是真正能使用的资源链接)：
+`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
+
+例如在末尾添加`?raw=ture`：
+`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture`
+
+或者直接点击`raw`或者`view`，⁠使用跳转后的链接：
+`https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list`
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw1.jpg" >
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw2.png" >
+
+或者将链接里的`blob`⁠修改为`raw`：
+`https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
+
+
+</details>
+
 
 - 「资源解析器」：是对引用的资源文件内容(远程or配置片段)，进行解析/转换/修改，变成 Quantumult X 支持的内容，可用在Quantumult X 的三个主要模块：①节点 ②分流 ③重写，具体使用说明见解析器下方教程；
 

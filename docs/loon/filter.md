@@ -66,6 +66,31 @@ Loon 3.1.5(657) 目前内置两种类型策略：直连和拒绝（共计 12 种
 「参数」`no-resolve`：可选，当设置`no-resolve`后表示该规则只会对目标地址类型是IP类型的生效，域名类型的目标地址不会进行dns解析后再去匹配这个规则，为了防止域名类的目标地址做无效的DNS请求，请在给纯IP类型的域名制定的规则中加上`no-resolve`。
 
 
+!> 资源路径，需要填写**raw格式**
+
+<details>
+  <summary> 点此查看raw格式教程</summary>
+
+
+以下方的链接举例(这是个网页，不是真正能使用的资源链接)：
+`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
+
+例如在末尾添加`?raw=ture`：
+`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture`
+
+或者直接点击`raw`或者`view`，⁠使用跳转后的链接：
+`https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list`
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw1.jpg" >
+
+
+或者将链接里的`blob`⁠修改为`raw`：
+`https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
+
+
+</details>
+
+
 #### 3.2.1 域名类型规则
 
 首先需要弄明白，URL 中域名是哪些？以一条 URL 为例：
@@ -237,7 +262,12 @@ https://github.com/Repcz/Tool/raw/X/Loon/Rules/APNs.list, policy = DIRECT, tag =
 
 - <资源路径>：需使用 `raw` 格式
 
-以下方的Github链接举例(这是个网页，不是真正能使用的资源链接)：
+
+<details>
+  <summary> 点此查看raw格式教程</summary>
+
+
+以下方的链接举例(这是个网页，不是真正能使用的资源链接)：
 `https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
 
 例如在末尾添加`?raw=ture`：
@@ -246,9 +276,14 @@ https://github.com/Repcz/Tool/raw/X/Loon/Rules/APNs.list, policy = DIRECT, tag =
 或者直接点击`raw`或者`view`，⁠使用跳转后的链接：
 `https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list`
 
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw1.jpg" >
+
+
 或者将链接里的`blob`⁠修改为`raw`：
 `https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
 
+
+</details>
 
 - `policy =` <策略>：除 Loon 内置的策略外，还可选择 本地节点、策略组、代理链等
 - `tag =` <别名>：自定义的名称，分别记忆理解
