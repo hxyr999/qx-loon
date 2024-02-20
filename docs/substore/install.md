@@ -1,4 +1,6 @@
-# VPS Docker 部署
+# SubStore 部署
+
+## VPS Docker 部署
 
 > 以下基于 **Debain11** 系统
 
@@ -7,7 +9,7 @@
 需要一个域名，并设置 DNS解析 至 VPS 的 IP 上
 
 　
-## 设置域名解析
+### 设置域名解析
 
 
 此处以 [CloudFlare](https://dash.cloudflare.com/) 添加 `A` 记录 为例
@@ -22,7 +24,7 @@
 
 当然，则解析过去需要一定的时间。
 
-## SSH登录
+### SSH登录
 
 > 此处 SSH 客户端为 FinalShell
 
@@ -32,7 +34,7 @@
 
 部分机场会屏蔽 22 端口，需设置端口分流绕开此类机场
 
-## 安装 Docker
+### 安装 Docker
 
 以下将使用 [科技lion](https://kejilion.blogspot.com/2023/08/lionldnmp.html) 的脚本
 
@@ -72,7 +74,7 @@ curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/kejilion.sh && ch
 
 安装完成后，SSH 界面内(不是下面的输入框)，按住 `ctrl` + `c`(这里并不是win系统里面的复制) ，结束当前脚本。
 
-## 部署 `SubStore`
+### 部署 `SubStore`
 
 - 全功能带推送
 
@@ -96,7 +98,7 @@ FianlShell中，复制可以在选中后，点击按钮复制
 ![docker4](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/docker4.png)
 
 
-### 获取 SubStore Docker容器的 IP
+#### 获取 SubStore Docker容器的 IP
 
 科技lion脚本 ，6Docker管理 → 5网络管理
 
@@ -105,7 +107,7 @@ FianlShell中，复制可以在选中后，点击按钮复制
 ![npm6](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/npm6.png)
 
 
-## 部署 NginxProxyManager 可视化面板
+### 部署 NginxProxyManager 可视化面板
 
 科技lion脚本 ，11面板工具 → 4NginxProxyManager可视化面板
 
@@ -116,7 +118,7 @@ FianlShell中，复制可以在选中后，点击按钮复制
 ![npm1](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/npm1.png)
 
 
-### NginxProxyManager 登录、修改密码
+#### NginxProxyManager 登录、修改密码
 
 简单来说，上面的部署 SubStore 的指令，使得只能在 VPS 本地，访问 `127.0.0.1:3001`
 
@@ -129,7 +131,7 @@ FianlShell中，复制可以在选中后，点击按钮复制
 ![npm3](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/npm3.png)
 
 
-### NginxProxyManager 设置 SSL 证书
+#### NginxProxyManager 设置 SSL 证书
 
 ![npm4](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/npm4.png)
 
@@ -137,7 +139,7 @@ FianlShell中，复制可以在选中后，点击按钮复制
 
 理论上，设置 `*.xxxxx.xyz`（`xxxxx.xyz`表示你的域名），后续无需再设置SSL证书。
 
-### NginxProxyManager 添加反代 
+#### NginxProxyManager 添加反代 
 
 输入对应的 IP、端口、域名
 
@@ -147,7 +149,7 @@ SSL 选中刚才申请的证书，勾选 `Force SSL`
 
 ![npm8](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/npm8.png)
 
-## 访问 SubStore
+### 访问 SubStore
 
 此时，SubStore 地址为：https://sub.xxxxx.xyz 
 
@@ -164,4 +166,10 @@ https://sub.xxxxx.xyz?api=https://sub.xxxxx.xyz/2cXaAxRGfddmGz2yx1wA
 ```
 
 
-!> 如果访问不了，回到 NginxProxyManager 中，查看刚才添加的 host记录，是否没有勾选 `Force SSL`
+!> 如果访问不了，回到 NginxProxyManager 中，查看刚才添加的 host记录，是否勾选 `Force SSL`
+
+## iOS代理软件部署
+
+iOS代理软件上部署 SubStore依赖于 MitM & 重写，使用前需安装信任根证书，并开启响应的开关
+
+

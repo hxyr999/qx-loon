@@ -7,6 +7,6 @@
 * [**Stash**](stash/doc.md)
 * [**Surfboard**](surfboard/doc.md)
 * [**Surge**](surge/doc.md)
-* [**SubStore**](substore/vps.md)
+* [**SubStore**](substore/install.md)
 * [**正则表达式**](regex/doc.md)
 * [**广而告之**](aff/aff.md)
