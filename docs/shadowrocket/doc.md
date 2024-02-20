@@ -1,6 +1,6 @@
 # Shadowrocket
 
-## Shadowrocket 下载地址
+## 下载地址
 
 <a href="https://apps.apple.com/app/id932747118"><img width="200px" alt="Download on App Store" src="https://logos-download.com/wp-content/uploads/2016/06/Download_on_the_App_Store_logo.png"/></a>  
 
