@@ -106,7 +106,7 @@ https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Shadowrocket/Photo/7.PNG" width="600">
 
-!> 需安装覆写的raw格式链接
+!> 需安装模块的raw格式链接
 
 <details>
   <summary> 点此查看raw格式教程</summary>
