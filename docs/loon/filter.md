@@ -261,6 +261,10 @@ https://github.com/Repcz/Tool/raw/X/Loon/Rules/APNs.list, policy = DIRECT, tag =
 
 
 - <资源路径>：需使用 `raw` 格式
+- `policy =` <策略>：除 Loon 内置的策略外，还可选择 本地节点、策略组、代理链等
+- `tag =` <别名>：自定义的名称，分别记忆理解
+- `enabled =` <是否启用>: 若不使用可改为 `false`
+
 
 
 <details>
@@ -284,7 +288,3 @@ https://github.com/Repcz/Tool/raw/X/Loon/Rules/APNs.list, policy = DIRECT, tag =
 
 
 </details>
-
-- `policy =` <策略>：除 Loon 内置的策略外，还可选择 本地节点、策略组、代理链等
-- `tag =` <别名>：自定义的名称，分别记忆理解
-- `enabled =` <是否启用>: 若不使用可改为 `false`
