@@ -151,9 +151,17 @@ SSL 选中刚才申请的证书，勾选 `Force SSL`
 
 此时，SubStore 地址为：https://sub.xxxxx.xyz 
 
-其 API 为 https://sub.xxxxx.xyz/2cXaAxRGfddmGz2yx1wA ；对应上面的设置。
+其 API 为 
 
-浏览器访问 https://sub.xxxxx.xyz?api=https://sub.xxxxx.xyz/2cXaAxRGfddmGz2yx1wA 即可
+```
+https://sub.xxxxx.xyz/2cXaAxRGfddmGz2yx1wA 
+```
+
+浏览器访问 
+
+```
+https://sub.xxxxx.xyz?api=https://sub.xxxxx.xyz/2cXaAxRGfddmGz2yx1wA 
+```
 
 
 !> 如果访问不了，回到 NginxProxyManager 中，查看刚才添加的 host记录，是否没有勾选 `Force SSL`
