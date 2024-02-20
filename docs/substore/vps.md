@@ -87,14 +87,16 @@ docker run -it -d --restart=always -e "SUB_STORE_CRON=0 0 * * *" -e SUB_STORE_FR
 ```
 
 
-!> ⚠️ 注意: `SUB_STORE_FRONTEND_BACKEND_PATH=/`后的字段(此处是`2cXaAxRGfddmGz2yx1wA`)表示 API，需自行设置并保存好；如果不知道输入什么，可以用 科技lion 的脚本 ，13系统工具 → 14密码生成
+!> `SUB_STORE_FRONTEND_BACKEND_PATH=/`后的字段(此处是`2cXaAxRGfddmGz2yx1wA`)表示 API，需自行设置并保存好；
+
+如果不知道输入什么，可以用 科技lion 的脚本 ，13系统工具 → 14密码生成
 
 FianlShell中，复制可以在选中后，点击按钮复制
 
 ![docker4](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/docker4.png)
 
 
-## 获取 SubStore Docker容器的 IP
+### 获取 SubStore Docker容器的 IP
 
 科技lion脚本 ，6Docker管理 → 5网络管理
 
@@ -114,7 +116,7 @@ FianlShell中，复制可以在选中后，点击按钮复制
 ![npm1](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/npm1.png)
 
 
-## NginxProxyManager 登录、修改密码
+### NginxProxyManager 登录、修改密码
 
 简单来说，上面的部署 SubStore 的指令，使得只能在 VPS 本地，访问 `127.0.0.1:3001`
 
@@ -127,7 +129,7 @@ FianlShell中，复制可以在选中后，点击按钮复制
 ![npm3](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/npm3.png)
 
 
-## NginxProxyManager 设置 SSL 证书
+### NginxProxyManager 设置 SSL 证书
 
 ![npm4](https://raw.githubusercontent.com/Repcz/Tool/X/SubStore/Photo/npm4.png)
 
@@ -135,7 +137,7 @@ FianlShell中，复制可以在选中后，点击按钮复制
 
 理论上，设置 `*.xxxxx.xyz`（`xxxxx.xyz`表示你的域名），后续无需再设置SSL证书。
 
-## NginxProxyManager 添加反代 
+### NginxProxyManager 添加反代 
 
 输入对应的 IP、端口、域名
 
