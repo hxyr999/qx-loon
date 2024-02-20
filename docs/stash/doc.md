@@ -1,6 +1,6 @@
 # Stash
 
-## Stash 下载地址
+## 下载地址
 
 <a href="https://apps.apple.com/app/id1596063349"><img width="200px" alt="Download on App Store" src="https://logos-download.com/wp-content/uploads/2016/06/Download_on_the_App_Store_logo.png"/></a>  
 
@@ -11,10 +11,10 @@
 ### 1. 导入并修改配置
 
 
-* **设置** - **配置文件** - **从URL下载**
+[点击链接](https://link.stash.ws/install-config/raw.githubusercontent.com/Repcz/Tool/X/Stash/Stash.yaml) 导入`Stash.yaml`
 
 <details>
-  <summary>Stash.yaml</summary>
+  <summary>点击查看</summary>
 
 - [ ] 使用GeoSITE&GeoIP
 - [x] 地区分流（香港、美国、日本、台湾、新加坡）
@@ -27,15 +27,11 @@
 
 </details>
 
-```
-raw.githubusercontent.com/Repcz/Tool/X/Stash/Stash.yaml
-```
 
-或 [点击链接](https://link.stash.ws/install-config/raw.githubusercontent.com/Repcz/Tool/X/Stash/Stash.yaml) 导入Stash.yaml
-
+ [点击链接](https://link.stash.ws/install-config/raw.githubusercontent.com/Repcz/Tool/X/Stash/Stash_lite.yaml) 导入`Stash_lite.yaml`
 
 <details>
-  <summary> Stash_lite.yaml </summary>
+  <summary> 点击查看</summary>
 
 - [x] 使用GeoSITE&GeoIP
 - [x] 地区分流（香港、美国、日本、台湾、新加坡）
@@ -49,35 +45,43 @@ raw.githubusercontent.com/Repcz/Tool/X/Stash/Stash.yaml
 
 </details>
 
-```
-https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Stash_lite.yaml
-```
-
-或 [点击链接](https://link.stash.ws/install-config/raw.githubusercontent.com/Repcz/Tool/X/Stash/Stash_lite.yaml) 导入Stash_lite.yaml
 
 
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/s1.PNG" width="900">
 
-* 请自行替换 `subscribe-url` 和 `proxy-providers` 中的`http://your-service-provider`
+导入节点订阅
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/s2.PNG" width="900">
+
+
+
+导入节点订阅信息显示
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/s3.PNG" width="600">
+
+
+
+或者自行替换 `subscribe-url` 和 `proxy-providers` 中的`http://your-service-provider`
 
 ```
 # > 订阅的信息展示
-subscribe-url: http://your-service-provider
+subscribe-url: 
 
 proxy-providers:
 # > 远程服务器
- Subscribe: {<<: *p, url: http://your-service-provider}
+ Subscribe: {interval: 86400, benchmark-timeout: 3, benchmark-url: 'http://www.gstatic.com/generate_204', url: http://your-service-provider}
 
 ```
 
-![修改配置](https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/stash1.jpg)
-
 ### 2. 更新远程资源
-* 启动Stash
-* 下方 **策略组** 中，左上角 **下载** ，更新 **远程资源**
 
-![更新资源](https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/stash2.jpg)
+* 启动 Stash
+*  **策略组** 页面，左上角 **远程资源** - **更新**
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/s4.PNG" width="900">
 
 ### 3. 更新**GeoIP数据库**
+
 * 点击底部工具栏 **设置** ，点击配置模块中的 **更多设置**
 * 在 **GEOIP数据库** 模块中的URL填入以下地址 ，并更新
 
@@ -87,14 +91,15 @@ proxy-providers:
 https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
 ```
 
-![3](https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/stash3.jpg)
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/s5.PNG" width="600">
 
-### 策略组修改为手动选择节点
-> 默认为自动选择延迟最低节点，**按需** 修改为手动选择
-* 在 **策略组** 下的分流策略组中选择需要的地区节点，此处以 **国外网站** 举例，选择 **香港节点**
-* 在 **设置** 中的 **编辑** 模块，点击 **可视化编辑** 
-* 在 **可视化编辑** - **策略组** 中，找到 **香港节点** 此时该策略组以 `URL TEST` 运行，即按最低延迟选择节点
-* 如果要修改为手动选择节点，则点击 **香港节点** 策略组， **类型** 选择 `SElECT`，并保存
-* 在 **香港节点** 策略组中选择需要的节点，则 **国外网站** 策略组走 **香港节点** 中选择的节点
 
-![4](https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/stash4.jpg)
+## 安装&信任 证书
+
+### 生成并安装 证书
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/s6.PNG" width="900">
+
+### 信任证书
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/s7.PNG" width="600">
