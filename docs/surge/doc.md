@@ -7,7 +7,7 @@
 
 ## 导入配置
 
-### 1.添加 **配置文件** 
+### 添加 **配置文件** 
 > 配置参数解释见：_[GetSomeCats/Surge](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/SurgePro.conf)_
 
 ```
@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Surge.conf
 
 <img width="600px"  src="https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Photo/1.PNG"/>
 
-### 2.添加机场订阅
+### 添加机场订阅
 > 机场订阅本地转换可参考[Sub-Store 教程](https://getupnote.com/share/notes/8SiMnOcwXxZ3xEtK4k2v9Gr3pv32/7522F394-6D73-414E-BE04-1455EDB15B9F)
 
 *  在 **首页**  —— **通用** 中， 点击 **代理服务器** 
@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Surge.conf
 
 ![Image text](https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Photo/2.PNG) 
 
-### 3.将 机场订阅策略组 导入 手动选择策略组
+### 将 机场订阅策略组 导入 手动选择策略组
 
 *  在 **首页**  —— **通用** ， 点击 **代理服务器** 
 * 弹出的菜单中，在 **策略组** 最上方 ，点击 **手动选择**，并在弹出的菜单中，下拉至最下方
@@ -40,7 +40,9 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Surge.conf
 
 ![Image text](https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Photo/3.PNG) 
 
-### 4.为配置文件生成证书
+## 证书设置
+
+### 生成证书
 * 在 **首页**  —— **修改** ，点击 **MitM** 区域的 **配置根证书** 
 * 弹出的菜单中，点击 **生成新的CA证书**
 * 在弹出的菜单中，点击 **安装证书**
@@ -50,19 +52,20 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Surge.conf
 * **确定** 提示后，在Safari中 **允许** 下载配置文件
 * 并勾选 **MitM** 、**Rewrite** 、**脚本** 的开关
 
-### 5.设置中安装描述文件
+### 安装描述文件
+
 > 此处借用QX的图
 
 * 在 **系统设置** 中，点击 **已下载描述文件** ，并 **安装**
 
 ![Image text](https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/%E8%AE%BE%E7%BD%AE-%E5%AE%89%E8%A3%85%E8%AF%81%E4%B9%A6.jpg)
 
-### 6.设置中信任描述文件
+### 信任描述文件
 * 在 **系统设置** - **通用** - **关于本机** - **证书信任设置** 中，勾选已安装的描述文件
 
 ![Image text](https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/%E8%AE%BE%E7%BD%AE-%E4%BF%A1%E4%BB%BB%E8%AF%81%E4%B9%A6.jpg)
 
-### 7.导入模块
+## 导入模块
 * **首页** —— **通用** —— **模块** 中，点击 **模块** 按钮
 * 弹出的页面中，下滑至 **安装的模块** 最下方，点击 **安装新模块**
 * 将模块链接(raw链接)填入并保存，等待下载外部资源

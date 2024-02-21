@@ -170,6 +170,29 @@ https://sub.xxxxx.xyz?api=https://sub.xxxxx.xyz/2cXaAxRGfddmGz2yx1wA
 
 ## iOS代理软件部署
 
-iOS代理软件上部署 SubStore依赖于 MitM & 重写，使用前需安装信任根证书，并开启响应的开关
+!> iOS代理软件上部署 SubStore，依赖 MitM & 重写，使用前需**安装信任根证书**，并开启相应的开关
+
+### 安装
 
 
+- Loon：[点击一键导入](https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Loon.plugin)
+
+
+- QX：[点击一键导入](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%0A%20%20%22rewrite_remote%22%20%3A%20%5B%0A%20%20%20%20%22https%3A%2F%2Fmirror.ghproxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPeng-YM%2FSub-Store%2Fmaster%2Fconfig%2FQX.snippet%2C%20tag%3DSub-Store%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20enabled%3Dtrue%22%0A%20%20%5D%0A%7D)
+
+- Surge & Shadowrocket
+
+安装使用模块即可。
+
+```
+https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Surge-ability.sgmodule
+```
+
+- Stash
+
+启动Stash后，在 **设置** - **配置列表** 中下拉点击 **Sub-Store** 即可。
+
+  
+### 访问
+
+浏览器打开 https://sub.store 
