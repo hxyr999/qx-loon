@@ -1,5 +1,5 @@
+no-reslove:true
 domain_set:
-no-reslove:ture
 - api.statsig.com
 - browser-intake-datadoghq.com
 - cdn.openai.com

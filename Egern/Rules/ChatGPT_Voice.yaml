@@ -1,5 +1,5 @@
+no-reslove:true
 domain_set:
-no-reslove:ture
 domain_suffix_set:
 - chatgpt.livekit.cloud
 - host.livekit.cloud

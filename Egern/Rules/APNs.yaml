@@ -1,5 +1,5 @@
+no-reslove:true
 domain_set:
-no-reslove:ture
 - identity.apple.com
 domain_suffix_set:
 - push.apple.com

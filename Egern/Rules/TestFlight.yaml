@@ -1,5 +1,5 @@
+no-reslove:true
 domain_set:
-no-reslove:ture
 - beta.apple.com
 - testflight.apple.com
 domain_suffix_set:
