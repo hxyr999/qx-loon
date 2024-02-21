@@ -1,4 +1,4 @@
-no-reslove:true
+no-reslove: true
 domain_set:
 - api.avax.network
 domain_suffix_set:

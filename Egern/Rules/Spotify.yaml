@@ -1,4 +1,4 @@
-no-reslove:true
+no-reslove: true
 domain_set:
 - audio4-ak-spotify-com.akamaized.net
 - cdn-spotify-experiments.conductrics.com

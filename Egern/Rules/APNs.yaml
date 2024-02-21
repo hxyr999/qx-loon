@@ -1,4 +1,4 @@
-no-reslove:true
+no-reslove: true
 domain_set:
 - identity.apple.com
 domain_suffix_set:

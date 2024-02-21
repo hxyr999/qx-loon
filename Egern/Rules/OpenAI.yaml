@@ -1,4 +1,4 @@
-no-reslove:true
+no-reslove: true
 domain_set:
 - api.statsig.com
 - browser-intake-datadoghq.com

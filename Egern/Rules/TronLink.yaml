@@ -1,4 +1,4 @@
-no-reslove:true
+no-reslove: true
 domain_set:
 - tronlink-images.s3.us-east-2.amazonaws.com
 domain_suffix_set:

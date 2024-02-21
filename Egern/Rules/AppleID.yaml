@@ -1,4 +1,4 @@
-no-reslove:true
+no-reslove: true
 domain_set:
 - appleid.apple.com
 - appleid.cdn-apple.com

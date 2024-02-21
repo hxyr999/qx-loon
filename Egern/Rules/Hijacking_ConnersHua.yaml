@@ -1,4 +1,4 @@
-no-reslove:true
+no-reslove: true
 domain_set:
 - geo2.adobe.com
 domain_suffix_set:
