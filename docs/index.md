@@ -12,14 +12,14 @@
 ## <a href="https://github.com/clash-verge-rev/clash-verge-rev"><img src="https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png"  width="27" height="27"></a> Clash
 
 
-### Clash Premium 内核
+### Premium 内核
 
 * [CFW 配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/CFW.yaml)
 * [CFW 预处理配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/CFW_parser.yaml)
 * [订阅转换配置 | 流媒体自动配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/Online_Full_Auto.ini)
 * [订阅转换配置 | 流媒体手动配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/Online_Full_NoAuto.ini)
 
-### Clash Meta 内核
+### Meta 内核
 
 * [Clash Verge 配置 | 适配1个机场](https://github.com/Repcz/Tool/raw/X/Clash/Meta/ClashVerge.yaml)
 * [Clash Verge 配置 | 适配2个机场](https://github.com/Repcz/Tool/raw/X/Clash/Meta/ClashVerge_②.yaml)
@@ -28,7 +28,7 @@
 * [订阅转换配置 | 流媒体手动配置](https://github.com/Repcz/Tool/raw/X/Clash/Meta/Online_Full_NoAuto.ini)
 * [使用方法](clash/doc.md)
 
-### Clash 规则
+### 分流规则
 
 * [自用规则库](clash/rules.md)
 
