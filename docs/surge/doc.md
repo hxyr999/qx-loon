@@ -72,3 +72,5 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Surge.conf
 * 下载完成后，点击最下方的 **调整生效顺序**，按需调整模块生效顺序（按需）
 
 ![Image text](https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Photo/5.PNG) 
+
+!> 注意：新安装模块不会自动启用，需自行勾选
