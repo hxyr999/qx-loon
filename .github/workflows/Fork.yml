@@ -1193,8 +1193,8 @@ jobs:
       run: |
         cd Tool-repo/Egern/Rules
         for file in *.yaml; do
-          if [ "$file" != "Lan.yaml" ] && [ "$file" != "China*.yaml" ]; then
-            sed -i '1s/^/no-reslove:true\n/' "$file"
+          if [ "$file" != "Lan.yaml" ] && [ "$file" != "ChinaIPV4.yaml" ] && [ "$file" != "ChinaIPV6.yaml" ] && [ "$file" != "ChinaASN.yaml" ] && [ "$file" != "ChinaDomain.yaml" ]; then
+            sed -i '1s/^/no-reslove: true\n/' "$file"
           else
             echo "$file not found."
           fi
