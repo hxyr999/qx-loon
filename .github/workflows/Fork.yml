@@ -1,4 +1,4 @@
-# 2024-02-21 14:08
+# 2024-02-21 14:11
 
 name: Fork
 
@@ -115,8 +115,6 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
-                   -e 's/,rejct$/,REJECT/g' \
-                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -128,6 +126,8 @@ jobs:
                    -e 's/IP6-CIDR,/IP-CIDR6,/g' \
                    -e 's/,REJECT$//g' \
                    -e 's/,DIRECT$//g' \
+                   -e 's/,rejct$//g' \
+                   -e 's/,direct$//g' \
                    "$file"
             # 如果为IP规则且不包含no-resolve 则添加no-resolve
             awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
@@ -274,8 +274,6 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
-                   -e 's/,rejct$/,REJECT/g' \
-                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -287,6 +285,8 @@ jobs:
                    -e 's/IP6-CIDR,/IP-CIDR6,/g' \
                    -e 's/,REJECT$//g' \
                    -e 's/,DIRECT$//g' \
+                   -e 's/,rejct$//g' \
+                   -e 's/,direct$//g' \
                    -e 's/,extended-matching$//g' \
                    -e '/\(OR\|AND\|NOT\|USER-AGENT\|URL-REGEX\|IP-ASN\),/ s/^/#/' \
                    "$file"
@@ -469,7 +469,7 @@ jobs:
         for file in Ads_*.list AdGuardChinese.list *_ConnersHua.list Reject.list; do
           if [ -f "$file" ]; then
             # 修改PROXY为REJECT
-            sed -i 's/,PROXY/,REJECT/g' "$file"
+            sed -i 's/,PROXY/,REJECT$/g' "$file"
           else
             echo "$file not found."
           fi
@@ -482,7 +482,7 @@ jobs:
         for file in APNs.list Bilibili.list WeChat.list ChinaDomain.list ChinaASN.list; do
           if [ -f "$file" ]; then
             # 修改PROXY为DIRECT
-            sed -i 's/,PROXY/,DIRECT/g' "$file"
+            sed -i 's/,PROXY/,DIRECT$/g' "$file"
           else
             echo "$file not found."
           fi
@@ -582,8 +582,6 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
-                   -e 's/,rejct$/,REJECT/g' \
-                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -595,6 +593,8 @@ jobs:
                    -e 's/IP6-CIDR,/IP-CIDR6,/g' \
                    -e 's/,REJECT$//g' \
                    -e 's/,DIRECT$//g' \
+                   -e 's/,rejct$//g' \
+                   -e 's/,direct$//g' \
                    -e 's/,extended-matching$//g' \
                    -e '/\(OR\|AND\|NOT\|PROCESS-NAME\),/ s/^/#/' \
                    "$file"
@@ -753,8 +753,6 @@ jobs:
           if [ "$file" != "Lan.list" ] ; then
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
-                   -e 's/,rejct$/,REJECT/g' \
-                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -766,6 +764,8 @@ jobs:
                    -e 's/IP6-CIDR,/IP-CIDR6,/g' \
                    -e 's/,REJECT$//g' \
                    -e 's/,DIRECT$//g' \
+                   -e 's/,rejct$//g' \
+                   -e 's/,direct$//g' \
                    -e 's/,extended-matching$//g' \
                    -e '/\(PROCESS-NAME\),/ s/^/#/' \
                    "$file"
@@ -971,8 +971,6 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
-                   -e 's/,rejct$/,REJECT/g' \
-                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -985,6 +983,8 @@ jobs:
                    -e 's/,extended-matching$//g' \
                    -e 's/,REJECT$//g' \
                    -e 's/,DIRECT$//g' \
+                   -e 's/,rejct$//g' \
+                   -e 's/,direct$//g' \
                    -e '/\(USER-AGENT\|URL-REGEX\|OR\|AND\|NOT\),/ s/^/#/' \
                    -e 's| \{1,\}//.*$||' \
                    "$file"
@@ -1014,8 +1014,6 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
-                   -e 's/,rejct$/,REJECT/g' \
-                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -1028,6 +1026,8 @@ jobs:
                    -e 's/,extended-matching$//g' \
                    -e 's/,REJECT$//g' \
                    -e 's/,DIRECT$//g' \
+                   -e 's/,rejct$//g' \
+                   -e 's/,direct$//g' \
                    -e '/\(USER-AGENT\|URL-REGEX\|OR\|AND\|NOT\),/ s/^/#/' \
                    -e 's| \{1,\}//.*$||' \
                    "$file"
@@ -1166,8 +1166,6 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
-                   -e 's/,rejct$/,REJECT/g' \
-                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -1180,6 +1178,8 @@ jobs:
                    -e 's/,extended-matching$//g' \
                    -e 's/,REJECT$//g' \
                    -e 's/,DIRECT$//g' \
+                   -e 's/,rejct$//g' \
+                   -e 's/,direct$//g' \
                    -e '/\(USER-AGENT\|OR\|AND\|NOT\),/ s/^/#/' \
                    -e 's| \{1,\}//.*$||' \
                    "$file"
