@@ -1,4 +1,4 @@
-# 2024-02-21 13:55
+# 2024-02-21 14:08
 
 name: Fork
 
@@ -1185,7 +1185,7 @@ jobs:
                    "$file"
     
             cp "$file" tmpfile
-    
+
             domain_set=""
             domain_suffix_set=""
             domain_keyword_set=""
@@ -1194,7 +1194,7 @@ jobs:
             ip_cidr6_set=""
             asn_set=""
             url_regex_set=""
-    
+            
             awk -F, '
               /^DOMAIN,/ {domain_set = domain_set "\n- " $2}
               /^DOMAIN-SUFFIX,/ {domain_suffix_set = domain_suffix_set "\n- " $2}
@@ -1202,7 +1202,7 @@ jobs:
               /^DOMAIN-WILDCARD,/ {domain_regex_set = domain_regex_set "\n- " $2}
               /^IP-CIDR,/ {ip_cidr_set = ip_cidr_set "\n- " $2}
               /^IP-CIDR6,/ {ip_cidr6_set = ip_cidr6_set "\n- " $2}
-              /^IP-ASN,/ {asn_set = asn_set "\n- " $2}
+              /^IP-ASN,/ {asn_set = asn_set "\n- '\''" $2 "'\''"}
               /^URL-REGEX,/ {url_regex_set = url_regex_set "\n- " $2}
             END {
               print "domain_set:" domain_set
@@ -1215,21 +1215,16 @@ jobs:
               print "url_regex_set:" url_regex_set
             }
             ' tmpfile > "$file"
-    
-          else
-            echo "$file not found."
-          fi
-        done
-    
-        rm tmpfile
-    
+            
+            rm tmpfile
+                       
       # 适配 egern 规则 yaml
     - name: Edit Egern/Rules add no-reslove
       run: |
         cd Tool-repo/Egern/Rules
         for file in *.yaml; do
           if [ "$file" != "Lan.yaml" ] && [ "$file" != "ChinaIPv4.yaml" ] && [ "$file" != "ChinaIPv6.yaml" ] && [ "$file" != "ChinaASN.yaml" ] && [ "$file" != "ChinaDomain.yaml" ]; then
-            sed -i '1s/^/no-reslove: true\n/' "$file"
+            sed -i '1s/^/no_reslove: true\n/' "$file"
           else
             echo "$file not found."
           fi
