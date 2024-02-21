@@ -1196,9 +1196,9 @@ jobs:
         if [ "$file" != "Lan.yaml" ] && [ "$file" != "China*.yaml" ]; then
           sed -i '2i no-reslove:ture' "$file"
         else
-        echo "$file not found."
-      fi
-    done
+          echo "$file not found."
+        fi
+        done
 
     - name: Add and Commits
       run: |
