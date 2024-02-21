@@ -5,20 +5,21 @@
 > **禁止任何形式的转载或发布至国内平台**
 
    
-
-<!-- tabs:start -->
-
-#### Clash
+<details>
+  <summary>自用配置</summary>
 
 
-##### Clash Premium 内核
+## <a href="https://github.com/clash-verge-rev/clash-verge-rev"><img src="https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png"  width="10" height="10"></a> Clash
+
+
+### Clash Premium 内核
 
 * [CFW 配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/CFW.yaml)
 * [CFW 预处理配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/CFW_parser.yaml)
 * [订阅转换配置 | 流媒体自动配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/Online_Full_Auto.ini)
 * [订阅转换配置 | 流媒体手动配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/Online_Full_NoAuto.ini)
 
-##### Clash Meta 内核
+### Clash Meta 内核
 
 * [Clash Verge 配置 | 适配1个机场](https://github.com/Repcz/Tool/raw/X/Clash/Meta/ClashVerge.yaml)
 * [Clash Verge 配置 | 适配2个机场](https://github.com/Repcz/Tool/raw/X/Clash/Meta/ClashVerge_②.yaml)
@@ -27,12 +28,11 @@
 * [订阅转换配置 | 流媒体手动配置](https://github.com/Repcz/Tool/raw/X/Clash/Meta/Online_Full_NoAuto.ini)
 * [使用方法](clash/doc.md)
 
-##### Clash 规则
+### Clash 规则
 
 * [自用规则库](clash/rules.md)
 
-#### Egern
-
+## <a href="https://apps.apple.com/us/app/egern/id1616105820"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Photo/logo.PNG"  width="10" height="10"></a> Egern
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Egern/Egern.yaml)
@@ -40,7 +40,7 @@
 * [自用规则库](egern/rules.md)
 * [blackmatrix7规则库](https://github.com/Repcz/EgernRules)
 
-#### Loon
+## <a href="https://apps.apple.com/app/id1373567447"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/logo.PNG"  width="10" height="10"></a> Loon
 
 
 
@@ -48,7 +48,8 @@
 * [使用方法](loon/doc.md)
 * [自用规则库](loon/rules.md)
 
-#### QuantumultX
+## <a href="https://apps.apple.com/app/id1443988620"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/logo.PNG"  width="10" height="10"></a> QuantumultX
+
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX.conf)
 * [自用配置 | 进阶](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX_Pro.conf)
@@ -56,17 +57,13 @@
 * [使用方法](quantumutx/doc.md)
 * [自用规则库](quantumutx/rules.md)
 
-#### Shadowrocket
-
-
-
+## <a href="https://apps.apple.com/app/id932747118"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Shadowrocket/Photo/logo.PNG"  width="10" height="10"></a> Shadowrocket
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Shadowrocket/Shadowrocket.conf)
 * [使用方法](shadowrocket/doc.md)
 * [自用规则库](shadowrocket/rules.md)
 
-#### Stash
-
+## <a href="https://apps.apple.com/app/id1596063349"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/logo.PNG"  width="10" height="10"></a> Stash
 
 
 
@@ -75,8 +72,7 @@
 * [使用方法](stash/doc.md)
 * [自用规则库](stash/rules.md)
 
-#### Surfboard
-
+## <a href="https://github.com/getsurfboard/surfboard/releases/latest"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surfboard/Photo/logo.png"  width="10" height="10"></a> Surfboard
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Surfboard/Surfboard.conf)
@@ -85,7 +81,7 @@
 * [使用方法](surfboard/doc.md)
 
 
-#### Surge
+## <a href="https://apps.apple.com/app/id1442620678"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Photo/logo.PNG"  width="10" height="10"></a> Surge
 
 
 
@@ -94,8 +90,8 @@
 * [自用规则库](surge/rules.md)
 
 
-<!-- tabs:end -->
 
+</details>
 
 <details>
   <summary>免责申明</summary>
