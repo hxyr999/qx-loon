@@ -5,8 +5,6 @@
 > **禁止任何形式的转载或发布至国内平台**
 
    
-<details>
-  <summary>自用配置</summary>
 
 <!-- tabs:start -->
 
@@ -112,7 +110,6 @@
 
 <!-- tabs:end -->
 
-</details>
 
 <details>
   <summary>免责申明</summary>
