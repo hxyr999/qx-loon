@@ -9,7 +9,7 @@
   <summary>自用配置</summary>
 
 
-## <a href="https://github.com/clash-verge-rev/clash-verge-rev"><img src="https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png"  width="10" height="10"></a> Clash
+## <a href="https://github.com/clash-verge-rev/clash-verge-rev"><img src="https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png"  width="50" height="50"></a> Clash
 
 
 ### Clash Premium 内核
@@ -32,7 +32,7 @@
 
 * [自用规则库](clash/rules.md)
 
-## <a href="https://apps.apple.com/us/app/egern/id1616105820"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Photo/logo.PNG"  width="10" height="10"></a> Egern
+## <a href="https://apps.apple.com/us/app/egern/id1616105820"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Photo/logo.PNG"  width="50" height="50"></a> Egern
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Egern/Egern.yaml)
@@ -40,7 +40,7 @@
 * [自用规则库](egern/rules.md)
 * [blackmatrix7规则库](https://github.com/Repcz/EgernRules)
 
-## <a href="https://apps.apple.com/app/id1373567447"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/logo.PNG"  width="10" height="10"></a> Loon
+## <a href="https://apps.apple.com/app/id1373567447"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/logo.PNG"  width="50" height="50"></a> Loon
 
 
 
@@ -48,7 +48,7 @@
 * [使用方法](loon/doc.md)
 * [自用规则库](loon/rules.md)
 
-## <a href="https://apps.apple.com/app/id1443988620"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/logo.PNG"  width="10" height="10"></a> QuantumultX
+## <a href="https://apps.apple.com/app/id1443988620"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/logo.PNG"  width="50" height="50"></a> QuantumultX
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX.conf)
@@ -57,13 +57,13 @@
 * [使用方法](quantumutx/doc.md)
 * [自用规则库](quantumutx/rules.md)
 
-## <a href="https://apps.apple.com/app/id932747118"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Shadowrocket/Photo/logo.PNG"  width="10" height="10"></a> Shadowrocket
+## <a href="https://apps.apple.com/app/id932747118"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Shadowrocket/Photo/logo.PNG"  width="50" height="50"></a> Shadowrocket
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Shadowrocket/Shadowrocket.conf)
 * [使用方法](shadowrocket/doc.md)
 * [自用规则库](shadowrocket/rules.md)
 
-## <a href="https://apps.apple.com/app/id1596063349"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/logo.PNG"  width="10" height="10"></a> Stash
+## <a href="https://apps.apple.com/app/id1596063349"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/logo.PNG"  width="50" height="50"></a> Stash
 
 
 
@@ -72,7 +72,7 @@
 * [使用方法](stash/doc.md)
 * [自用规则库](stash/rules.md)
 
-## <a href="https://github.com/getsurfboard/surfboard/releases/latest"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surfboard/Photo/logo.png"  width="10" height="10"></a> Surfboard
+## <a href="https://github.com/getsurfboard/surfboard/releases/latest"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surfboard/Photo/logo.png"  width="50" height="50"></a> Surfboard
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Surfboard/Surfboard.conf)
@@ -81,7 +81,7 @@
 * [使用方法](surfboard/doc.md)
 
 
-## <a href="https://apps.apple.com/app/id1442620678"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Photo/logo.PNG"  width="10" height="10"></a> Surge
+## <a href="https://apps.apple.com/app/id1442620678"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Photo/logo.PNG"  width="50" height="50"></a> Surge
 
 
 
