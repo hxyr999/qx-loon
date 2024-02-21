@@ -10,8 +10,6 @@
 
 #### Clash
 
-<a href="https://github.com/clash-verge-rev/clash-verge-rev">
-<img src="https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png"  width="110" height="110"></a>
 
 ##### Clash Premium 内核
 
@@ -35,8 +33,6 @@
 
 #### Egern
 
-<a href="https://apps.apple.com/us/app/egern/id1616105820">
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Photo/logo.PNG"  width="110" height="110"></a>
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Egern/Egern.yaml)
@@ -46,8 +42,6 @@
 
 #### Loon
 
-<a href="https://apps.apple.com/app/id1373567447">
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/logo.PNG"  width="110" height="110"></a>
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Loon/Loon.conf)
@@ -55,9 +49,6 @@
 * [自用规则库](loon/rules.md)
 
 #### QuantumultX
-
-<a href="https://apps.apple.com/app/id1443988620">
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/logo.PNG"  width="110" height="110"></a>
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX.conf)
 * [自用配置 | 进阶](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX_Pro.conf)
@@ -67,8 +58,7 @@
 
 #### Shadowrocket
 
-<a href="https://apps.apple.com/app/id932747118">
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Shadowrocket/Photo/logo.PNG"  width="110" height="110"></a>
+
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Shadowrocket/Shadowrocket.conf)
@@ -77,8 +67,7 @@
 
 #### Stash
 
-<a href="https://apps.apple.com/app/id1596063349">
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/logo.PNG"  width="110" height="110"></a>
+
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Stash/Stash.yaml)
@@ -88,8 +77,7 @@
 
 #### Surfboard
 
-<a href="https://github.com/getsurfboard/surfboard/releases/latest">
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surfboard/Photo/logo.png"  width="110" height="110"></a>
+
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Surfboard/Surfboard.conf)
 * [订阅转换配置 | 自动配置](https://github.com/Repcz/Tool/raw/X/Surfboard/Online_Full_Auto.ini)
@@ -99,8 +87,6 @@
 
 #### Surge
 
-<a href="https://apps.apple.com/app/id1442620678">
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Photo/logo.PNG"  width="110" height="110"></a>
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Surge/Surge.conf)
