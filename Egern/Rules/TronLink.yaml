@@ -1,4 +1,5 @@
 domain_set:
+no-reslove:ture
 - tronlink-images.s3.us-east-2.amazonaws.com
 domain_suffix_set:
 - tronlink.org

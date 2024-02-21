@@ -1,4 +1,5 @@
 domain_set:
+no-reslove:ture
 - steammobile.akamaized.net
 domain_suffix_set:
 - cdn-ali.content.steamchina.com

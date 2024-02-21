@@ -1,4 +1,5 @@
 domain_set:
+no-reslove:ture
 - events-gateway.ncdev.site
 - api.mixpanel.com
 domain_suffix_set:

@@ -1,4 +1,5 @@
 domain_set:
+no-reslove:ture
 - cloud.oracle.com
 - steambroadcast.akamaized.net
 - steamcommunity-a.akamaihd.net
