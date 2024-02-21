@@ -26,20 +26,22 @@
 
     // 设置 Docsify 配置
     window.$docsify = {
-      // logo
-      // logo: '/_media/lucy.svg',
+
       // 封面
       coverpage: true,
+
       // 是否加载侧边栏
       loadSidebar: true,
+
       // 侧边栏最大级别
       subMaxLevel: 4,
-      // 自动目录
-      // maxLevel: 4,
+      
       // 是否加载导航栏
       loadNavbar: true,
+
       // 网站名称
       name: '',
+
       // 仓库地址
       // repo: 'https://github.com/Repcz/Tool',
 
@@ -49,7 +51,6 @@
         errorText: '出错了！',
         successText: 'OK!'
       },
-
 
       // 搜索框
       search: {
@@ -70,20 +71,38 @@
         },
         crossChapter: true,
         crossChapterText: true,
+      },
+
+      // Tab 按钮
+      tabs: {
+        persist    : true,      
+        sync       : true, 
+        theme      : 'classic',
+        tabComments: true,
+        tabHeadings: true 
       }
+
     }
   </script>
   <!-- 引入 Docsify 核心库 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <!-- 引入 搜索插件 -->
+
+  <!-- 引入 搜索 插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <!-- 引入 图片缩放插件 -->
+
+  <!-- 引入 Tab 插件 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+  <!-- 引入 图片缩放 插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <!-- 引入 代码复制按钮插件 -->
+
+  <!-- 引入 代码复制按钮 插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <!-- 引入 章节按钮插件 -->
+
+  <!-- 引入 章节按钮 插件 -->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <!-- 引入 PC网页 回到顶部按钮插件 -->
+
+  <!-- 引入 PC网页 回到顶部按钮 插件 -->
   <script src="//cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
   <script src="//cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
   <script type="text/javascript">
@@ -97,12 +116,13 @@
       });
     });
   </script>
+
   <!-- 部署 PWA -->
   <script>
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
     }
   </script>
-  </body>
 
+  </body>
 </html>

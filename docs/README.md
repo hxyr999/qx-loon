@@ -8,6 +8,8 @@
 <details>
   <summary>自用配置</summary>
 
+<!-- tabs:start -->
+
 ### Clash
 
 <a href="https://github.com/clash-verge-rev/clash-verge-rev">
@@ -107,6 +109,8 @@
 * [使用方法](surge/doc.md)
 * [自用规则库](surge/rules.md)
 
+
+<!-- tabs:end -->
 
 </details>
 
