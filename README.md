@@ -4,122 +4,99 @@
 >
 > **禁止任何形式的转载或发布至国内平台**
 
-
-[![tg](https://img.shields.io/badge/Telegram-LᴜᴄʏCʜᴀɴɴᴇʟ-blue)](https://t.me/QVQ_Channel)
-
    
 <details>
   <summary>自用配置</summary>
 
-Clash
----
 
-<a href="https://github.com/clash-verge-rev/clash-verge-rev">
-<img src="https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png"  width="110" height="110"></a>
+## <a href="https://github.com/clash-verge-rev/clash-verge-rev"><img src="https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png"  width="25" height="25"></a> Clash
 
-#### Clash Premium 内核
+
+### Clash Premium 内核
 
 * [CFW 配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/CFW.yaml)
 * [CFW 预处理配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/CFW_parser.yaml)
 * [订阅转换配置 | 流媒体自动配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/Online_Full_Auto.ini)
 * [订阅转换配置 | 流媒体手动配置](https://github.com/Repcz/Tool/raw/X/Clash/Premium/Online_Full_NoAuto.ini)
 
-#### Clash Meta 内核
+### Clash Meta 内核
 
 * [Clash Verge 配置 | 适配1个机场](https://github.com/Repcz/Tool/raw/X/Clash/Meta/ClashVerge.yaml)
 * [Clash Verge 配置 | 适配2个机场](https://github.com/Repcz/Tool/raw/X/Clash/Meta/ClashVerge_②.yaml)
 * [Clash Verge 配置 | 适配3个机场](https://github.com/Repcz/Tool/raw/X/Clash/Meta/ClashVerge_③.yaml)
 * [订阅转换配置 | 流媒体自动配置](https://github.com/Repcz/Tool/raw/X/Clash/Meta/Online_Full_Auto.ini)
 * [订阅转换配置 | 流媒体手动配置](https://github.com/Repcz/Tool/raw/X/Clash/Meta/Online_Full_NoAuto.ini)
-* [使用方法](https://repcz.github.io/Tool/#/clash/doc)
+* [使用方法](clash/doc.md)
 
-#### Clash 规则
+### Clash 规则
 
-* [自用规则库](https://github.com/Repcz/Tool/tree/X/Clash/Rules)
+* [自用规则库](clash/rules.md)
 
-Egern
----
-<a href="https://apps.apple.com/us/app/egern/id1616105820">
-<img src="https://github.com/Repcz/Tool/blob/X/Egern/Photo/logo.PNG"  width="110" height="110"></a>
+## <a href="https://apps.apple.com/us/app/egern/id1616105820"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Photo/logo.PNG"  width="25" height="25"></a> Egern
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Egern/Egern.yaml)
-* [使用方法](https://repcz.github.io/Tool/#/egern/doc)
-* [自用规则库](https://github.com/Repcz/Tool/blob/X/Egern/Rules)
+* [使用方法](egern/doc.md)
+* [自用规则库](egern/rules.md)
 * [blackmatrix7规则库](https://github.com/Repcz/EgernRules)
 
-Loon
----
-<a href="https://apps.apple.com/app/id1373567447">
-<img src="https://github.com/Repcz/Tool/blob/X/Loon/Photo/logo.PNG"  width="110" height="110"></a>
+## <a href="https://apps.apple.com/app/id1373567447"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/logo.PNG"  width="25" height="25"></a> Loon
+
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Loon/Loon.conf)
-* [使用方法](https://repcz.github.io/Tool/#/loon/doc)
-* [自用规则库](https://github.com/Repcz/Tool/blob/X/Loon/Rules)
+* [使用方法](loon/doc.md)
+* [自用规则库](loon/rules.md)
 
-QuantumultX
----
-<a href="https://apps.apple.com/app/id1443988620">
-<img src="https://github.com/Repcz/Tool/blob/X/QuantumultX/Photo/logo.PNG"  width="110" height="110"></a>
+## <a href="https://apps.apple.com/app/id1443988620"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/logo.PNG"  width="25" height="25"></a> QuantumultX
+
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX.conf)
 * [自用配置 | 进阶](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX_Pro.conf)
 * [自用配置 | tvOS](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX_tvOS.conf)
-* [使用方法](https://repcz.github.io/Tool/#/quantumutx/doc)
-* [自用规则库](https://github.com/Repcz/Tool/blob/X/QuantumultX/Rules)
+* [使用方法](quantumutx/doc.md)
+* [自用规则库](quantumutx/rules.md)
 
-Shadowrocket
----
-<a href="https://apps.apple.com/app/id932747118">
-<img src="https://github.com/Repcz/Tool/blob/X/Shadowrocket/Photo/logo.PNG"  width="110" height="110"></a>
-
+## <a href="https://apps.apple.com/app/id932747118"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Shadowrocket/Photo/logo.PNG"  width="25" height="25"></a> Shadowrocket
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Shadowrocket/Shadowrocket.conf)
-* [使用方法](https://repcz.github.io/Tool/#/shadowrocket/doc)
-* [自用规则库](https://github.com/Repcz/Tool/blob/X/Shadowrocket/Rules)
+* [使用方法](shadowrocket/doc.md)
+* [自用规则库](shadowrocket/rules.md)
 
-Stash
----
-<a href="https://apps.apple.com/app/id1596063349">
-<img src="https://github.com/Repcz/Tool/blob/X/Stash/Photo/logo.PNG"  width="110" height="110"></a>
+## <a href="https://apps.apple.com/app/id1596063349"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/logo.PNG"  width="25" height="25"></a> Stash
+
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Stash/Stash.yaml)
 * [自用配置 | 轻量](https://github.com/Repcz/Tool/raw/X/Stash/Stash_lite.yaml)
-* [使用方法](https://repcz.github.io/Tool/#/stash/doc)
-* [自用规则库](https://github.com/Repcz/Tool/blob/X/Stash/Rules)
+* [使用方法](stash/doc.md)
+* [自用规则库](stash/rules.md)
 
-Surfboard
----
+## <a href="https://github.com/getsurfboard/surfboard/releases/latest"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surfboard/Photo/logo.png"  width="25" height="25"></a> Surfboard
 
-<a href="https://github.com/getsurfboard/surfboard/releases/latest">
-<img src="https://github.com/Repcz/Tool/blob/X/Surfboard/Photo/logo.png"  width="110" height="110"></a>
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Surfboard/Surfboard.conf)
 * [订阅转换配置 | 自动配置](https://github.com/Repcz/Tool/raw/X/Surfboard/Online_Full_Auto.ini)
 * [订阅转换配置 | 手动配置](https://github.com/Repcz/Tool/raw/X/Surfboard/Online_Full_NoAuto.ini)
-* [使用方法](https://repcz.github.io/Tool/#/surfboard/doc)
+* [使用方法](surfboard/doc.md)
 
 
-Surge
----
-<a href="https://apps.apple.com/app/id1442620678">
-<img src="https://github.com/Repcz/Tool/blob/X/Surge/Photo/logo.PNG"  width="110" height="110"></a>
+## <a href="https://apps.apple.com/app/id1442620678"><img src="https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Photo/logo.PNG"  width="25" height="25"></a> Surge
+
 
 
 * [自用配置](https://github.com/Repcz/Tool/raw/X/Surge/Surge.conf)
-* [使用方法](https://repcz.github.io/Tool/#/surge/doc)
-* [自用规则库](https://github.com/Repcz/Tool/blob/X/Surge/Rules)
+* [使用方法](surge/doc.md)
+* [自用规则库](surge/rules.md)
+
 
 
 </details>
 
 <details>
-  <summary>免责声明</summary>
+  <summary>免责申明</summary>
    
-免责声明
----
+
 
 * 本项目涉及的脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
@@ -141,8 +118,6 @@ Surge
 <details>
   <summary>特别感谢</summary>
   
-特别感谢
----
 
 排名不分先后,如有遗漏请提醒补充：
 
