@@ -1,4 +1,4 @@
-# 2024-02-21 13:45
+# 2024-02-21 13:55
 
 name: Fork
 
@@ -115,6 +115,8 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
+                   -e 's/,rejct$/,REJECT/g' \
+                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -272,6 +274,8 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
+                   -e 's/,rejct$/,REJECT/g' \
+                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -578,6 +582,8 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
+                   -e 's/,rejct$/,REJECT/g' \
+                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -747,6 +753,8 @@ jobs:
           if [ "$file" != "Lan.list" ] ; then
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
+                   -e 's/,rejct$/,REJECT/g' \
+                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -963,6 +971,8 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
+                   -e 's/,rejct$/,REJECT/g' \
+                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -1004,6 +1014,8 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
+                   -e 's/,rejct$/,REJECT/g' \
+                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
@@ -1154,6 +1166,8 @@ jobs:
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/;/# /g' \
+                   -e 's/,rejct$/,REJECT/g' \
+                   -e 's/,direct$/,DIRECT/g' \
                    -e 's/host,/HOST,/g' \
                    -e 's/host-/HOST-/g' \
                    -e 's/-suffix/-SUFFIX/g' \
