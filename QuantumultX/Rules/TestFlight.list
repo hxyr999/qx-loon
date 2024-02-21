@@ -1,9 +1,9 @@
-# NAME: TestFlight
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# DOMAIN: 2
-# HOST-KEYWORD: 1
-# TOTAL: 3
+# NAME: TestFlight,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# DOMAIN: 2,PROXY
+# HOST-KEYWORD: 1,PROXY
+# TOTAL: 3,PROXY
 HOST,beta.apple.com,PROXY
 HOST,testflight.apple.com,PROXY
 HOST-KEYWORD,testflight,PROXY

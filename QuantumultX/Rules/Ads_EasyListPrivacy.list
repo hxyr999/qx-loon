@@ -1,20 +1,20 @@
-## [Adblock Plus 1.1]
-## ! Version: 202402201547
-## ! Title: EasyPrivacy
-## ! Last modified: 20 Feb 2024 15:47 UTC
-## ! Expires: 4 days (update frequency)
-## ! *** easylist:template_header.txt ***
-## ! 
-## ! Please report any unblocked adverts or problems
-## ! in the forums (https://forums.lanik.us/)
-## ! or via e-mail (easylist@protonmail.com).
-## ! 
-## ! Homepage: https://easylist.to/
-## ! Licence: https://easylist.to/pages/licence.html
-## ! GitHub issues: https://github.com/easylist/easylist/issues
-## ! GitHub pull requests: https://github.com/easylist/easylist/pulls
-
-
+## [Adblock Plus 1.1],REJECT
+## ! Version: 202402201547,REJECT
+## ! Title: EasyPrivacy,REJECT
+## ! Last modified: 20 Feb 2024 15:47 UTC,REJECT
+## ! Expires: 4 days (update frequency),REJECT
+## ! *** easylist:template_header.txt ***,REJECT
+## ! ,REJECT
+## ! Please report any unblocked adverts or problems,REJECT
+## ! in the forums (https://forums.lanik.us/),REJECT
+## ! or via e-mail (easylist@protonmail.com).,REJECT
+## ! ,REJECT
+## ! Homepage: https://easylist.to/,REJECT
+## ! Licence: https://easylist.to/pages/licence.html,REJECT
+## ! GitHub issues: https://github.com/easylist/easylist/issues,REJECT
+## ! GitHub pull requests: https://github.com/easylist/easylist/pulls,REJECT
+,REJECT
+,REJECT
 HOST-SUFFIX,00px.net,reject,REJECT
 HOST-SUFFIX,1cros.net,reject,REJECT
 HOST-SUFFIX,2cnt.net,reject,REJECT

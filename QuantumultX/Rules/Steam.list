@@ -1,10 +1,10 @@
-# NAME: Steam
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# DOMAIN: 1
-# HOST-KEYWORD: 3
-# HOST-SUFFIX: 36
-# TOTAL: 40
+# NAME: Steam,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# DOMAIN: 1,PROXY
+# HOST-KEYWORD: 3,PROXY
+# HOST-SUFFIX: 36,PROXY
+# TOTAL: 40,PROXY
 HOST,steammobile.akamaized.net,PROXY
 HOST-SUFFIX,cdn-ali.content.steamchina.com,PROXY
 HOST-SUFFIX,cdn-qc.content.steamchina.com,PROXY

@@ -1,14 +1,14 @@
-# NAME: Netflix
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# DOMAIN: 3
-# HOST-KEYWORD: 4
-# HOST-SUFFIX: 30
-# IP-CIDR: 1115
-# IP-CIDR6: 4
-# PROCESS-NAME: 1
-# USER-AGENT: 1
-# TOTAL: 1158
+# NAME: Netflix,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# DOMAIN: 3,PROXY
+# HOST-KEYWORD: 4,PROXY
+# HOST-SUFFIX: 30,PROXY
+# IP-CIDR: 1115,PROXY
+# IP-CIDR6: 4,PROXY
+# PROCESS-NAME: 1,PROXY
+# USER-AGENT: 1,PROXY
+# TOTAL: 1158,PROXY
 HOST,e13252.dscg.akamaiedge.net,PROXY
 HOST,h-netflix.online-metrix.net,PROXY
 HOST,netflix.com.edgesuite.net,PROXY
@@ -1166,4 +1166,4 @@ IP6-CIDR,2620:10c:7000::/44,PROXY
 IP6-CIDR,2a00:86c0::/32,PROXY
 IP6-CIDR,2a03:5640::/32,PROXY
 USER-AGENT,Argo*,PROXY
-#PROCESS-NAME,com.netflix.mediaclient
+#PROCESS-NAME,com.netflix.mediaclient,PROXY

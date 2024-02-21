@@ -1,5 +1,5 @@
-# 内容：Instagram
-# 数量：4条
+# 内容：Instagram,PROXY
+# 数量：4条,PROXY
 HOST-KEYWORD,instagram,PROXY
 HOST-SUFFIX,cdninstagram.com,PROXY
 HOST-SUFFIX,instagr.am,PROXY

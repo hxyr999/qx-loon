@@ -1,9 +1,9 @@
-# 内容：OneDrive
-# 数量：18条
+# 内容：OneDrive,PROXY
+# 数量：18条,PROXY
 USER-AGENT,OneDrive*,PROXY
 USER-AGENT,OneDriveiOSApp*,PROXY
-#PROCESS-NAME,OneDrive
-#PROCESS-NAME,OneDriveUpdater
+#PROCESS-NAME,OneDrive,PROXY
+#PROCESS-NAME,OneDriveUpdater,PROXY
 HOST-KEYWORD,1drv,PROXY
 HOST-KEYWORD,onedrive,PROXY
 HOST-KEYWORD,skydrive,PROXY

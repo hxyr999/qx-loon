@@ -1,6 +1,6 @@
-来源：https://gitlab.com/lodepuly/vpn_tool/-/blob/master/Tool/Loon/Plugin/QQMusic_remove_ads.plugin
+来源：https://gitlab.com/lodepuly/vpn_tool/-/blob/master/Tool/Loon/Plugin/QQMusic_remove_ads.plugin,REJECT
 2023-12-20 16:47:45,REJECT
-
+,REJECT
 HOST,adstats.tencentmusic.com,REJECT
 HOST,ad.tencentmusic.com,REJECT
 HOST,adcdn.tencentmusic.com,REJECT

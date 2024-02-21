@@ -1,10 +1,10 @@
-# NAME: PrimeVideo
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# DOMAIN: 9
-# HOST-KEYWORD: 1
-# HOST-SUFFIX: 6
-# TOTAL: 16
+# NAME: PrimeVideo,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# DOMAIN: 9,PROXY
+# HOST-KEYWORD: 1,PROXY
+# HOST-SUFFIX: 6,PROXY
+# TOTAL: 16,PROXY
 HOST,atv-ps.amazon.com,PROXY
 HOST,avodmp4s3ww-a.akamaihd.net,PROXY
 HOST,d1v5ir2lpwr8os.cloudfront.net,PROXY

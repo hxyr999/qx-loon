@@ -1,9 +1,9 @@
-# NAME: Disney
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# HOST-SUFFIX: 171
-# PROCESS-NAME: 2
-# TOTAL: 173
+# NAME: Disney,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# HOST-SUFFIX: 171,PROXY
+# PROCESS-NAME: 2,PROXY
+# TOTAL: 173,PROXY
 HOST-SUFFIX,20thcenturystudios.com.au,PROXY
 HOST-SUFFIX,20thcenturystudios.com.br,PROXY
 HOST-SUFFIX,20thcenturystudios.jp,PROXY
@@ -175,5 +175,5 @@ HOST-SUFFIX,thewaltdisneycompany.com,PROXY
 HOST-SUFFIX,thisispolaris.com,PROXY
 HOST-SUFFIX,watchdisneyfe.com,PROXY
 HOST-SUFFIX,watchespn.com,PROXY
-#PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
-#PROCESS-NAME,com.disney.disneyplus
+#PROCESS-NAME,com.disney.datg.videoplatforms.android.abc,PROXY
+#PROCESS-NAME,com.disney.disneyplus,PROXY

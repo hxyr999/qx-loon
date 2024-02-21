@@ -1,5 +1,5 @@
-# 内容：YouTube
-# 数量：17条
+# 内容：YouTube,PROXY
+# 数量：17条,PROXY
 USER-AGENT,*youtube*,PROXY
 USER-AGENT,YouTube*,PROXY
 USER-AGENT,com.google.ios.youtube*,PROXY

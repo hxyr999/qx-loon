@@ -1,8 +1,8 @@
-# NAME: AppleID
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# DOMAIN: 4
-# TOTAL: 4
+# NAME: AppleID,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# DOMAIN: 4,PROXY
+# TOTAL: 4,PROXY
 HOST,appleid.apple.com,PROXY
 HOST,appleid.cdn-apple.com,PROXY
 HOST,gsa.apple.com,PROXY

@@ -1,8 +1,8 @@
-# NAME: AppleMedia
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# HOST-SUFFIX: 52
-# TOTAL: 52
+# NAME: AppleMedia,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# HOST-SUFFIX: 52,PROXY
+# TOTAL: 52,PROXY
 HOST-SUFFIX,aod.itunes.apple.com,PROXY
 HOST-SUFFIX,apple.comscoreresearch.com,PROXY
 HOST-SUFFIX,apple.news,PROXY

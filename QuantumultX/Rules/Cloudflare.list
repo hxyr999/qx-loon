@@ -1,10 +1,10 @@
-# NAME: Cloudflare
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# HOST-SUFFIX: 29
-# IP-CIDR: 15
-# IP-CIDR6: 7
-# TOTAL: 51
+# NAME: Cloudflare,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# HOST-SUFFIX: 29,PROXY
+# IP-CIDR: 15,PROXY
+# IP-CIDR6: 7,PROXY
+# TOTAL: 51,PROXY
 HOST-SUFFIX,cf-ipfs.com,PROXY
 HOST-SUFFIX,cloudflare-dns.com,PROXY
 HOST-SUFFIX,cloudflare-ipfs.com,PROXY

@@ -1,10 +1,10 @@
-# Author: 可莉🅥
-# Date: 2024-01-05 22:40:35
+# Author: 可莉🅥,PROXY
+# Date: 2024-01-05 22:40:35,PROXY
 HOST,api.msn.com,PROXY
 HOST,assets.msn.com,PROXY
 HOST,copilot.microsoft.com,PROXY
 HOST,dealczars.bing-shopping.microsoft-falcon.io,PROXY
-# HOST,eas.outlook.com
+# HOST,eas.outlook.com,PROXY
 HOST,edgeservices.bing.com,PROXY
 HOST,functional.events.data.microsoft.com,PROXY
 HOST,gateway.bingviz.microsoftapp.net,PROXY

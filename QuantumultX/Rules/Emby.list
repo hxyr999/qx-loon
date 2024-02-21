@@ -1,66 +1,66 @@
-# 基于 https://github.com/MisakaFxxk/MisakaF_Subconverter/blob/main/Sub/Emby.list 修改
-#
-# 2024-02-15 21:49
-
-
-##### A #####
-
-# ACA & MisakaF
+# 基于 https://github.com/MisakaFxxk/MisakaF_Subconverter/blob/main/Sub/Emby.list 修改,PROXY
+#,PROXY
+# 2024-02-15 21:49,PROXY
+,PROXY
+,PROXY
+##### A #####,PROXY
+,PROXY
+# ACA & MisakaF,PROXY
 HOST-SUFFIX,emby.aca.best,PROXY
 HOST-SUFFIX,porn.aca.best,PROXY
-
-##### B #####
-
-##### C #####
-
-# ccemby
+,PROXY
+##### B #####,PROXY
+,PROXY
+##### C #####,PROXY
+,PROXY
+# ccemby,PROXY
 HOST,cc.coemn.com,PROXY
 HOST-SUFFIX,cc.ccemby.tk,PROXY
 HOST-SUFFIX,carryz.net,PROXY
-
-# CherryEmby
+,PROXY
+# CherryEmby,PROXY
 HOST-SUFFIX,cherrytv.one,PROXY
-
-##### D #####
-
-##### E #####
-
-# Exflux 
+,PROXY
+##### D #####,PROXY
+,PROXY
+##### E #####,PROXY
+,PROXY
+# Exflux ,PROXY
 HOST-SUFFIX,line.emby.men,PROXY
-
-# Emby餐厅
+,PROXY
+# Emby餐厅,PROXY
 HOST-SUFFIX,mius.uk,PROXY
-
-##### F #####
-
-# Facmata
+,PROXY
+##### F #####,PROXY
+,PROXY
+# Facmata,PROXY
 HOST-SUFFIX,cinema.facmata.net,PROXY
-
-##### G #####
-
-# Godetia
+,PROXY
+##### G #####,PROXY
+,PROXY
+# Godetia,PROXY
 HOST-SUFFIX,emby.ssltd.xyz,PROXY
-
-##### H #####
-
-# 花云
+,PROXY
+##### H #####,PROXY
+,PROXY
+# 花云,PROXY
 HOST-SUFFIX,emby.flowercloud,PROXY
-
-# 黑猫影视EMBY
+,PROXY
+# 黑猫影视EMBY,PROXY
 HOST-SUFFIX,uuuoo.cc,PROXY
 HOST-SUFFIX,emby.bid,PROXY
 HOST-SUFFIX,emby.date,PROXY
 HOST-SUFFIX,emby.loan,PROXY
 HOST-SUFFIX,emby.trade,PROXY
-
-##### I #####
-
-# Immtel
+,PROXY
+##### I #####,PROXY
+,PROXY
+# Immtel,PROXY
 HOST-SUFFIX,emby.immtel.com,PROXY
-
-##### J #####
-
-# jmsooo
+,PROXY
+##### J #####,PROXY
+,PROXY
+# jmsooo,PROXY
 HOST-SUFFIX,agahk1.jmsooo.com,PROXY
 HOST-SUFFIX,agasg1.jmsooo.com,PROXY
 HOST-SUFFIX,agajp1.jmsooo.com,PROXY
@@ -68,139 +68,139 @@ HOST-SUFFIX,aws.jmsooo.com,PROXY
 HOST-SUFFIX,ntt1.jmsooo.com,PROXY
 HOST-SUFFIX,hinet.jmsooo.com,PROXY
 HOST-SUFFIX,cf1.jmsooo.com,PROXY
-
-# 剧狗
+,PROXY
+# 剧狗,PROXY
 HOST-SUFFIX,ju.dog,PROXY
 IP-CIDR,202.61.255.248/32,PROXY
-
-# 江湖
+,PROXY
+# 江湖,PROXY
 HOST-SUFFIX,reddust.link,PROXY
-
-##### K #####
-
-# 卡戎
+,PROXY
+##### K #####,PROXY
+,PROXY
+# 卡戎,PROXY
 HOST-SUFFIX,charontv.com,PROXY
-
-##### L #####
-
-# Land Emby
+,PROXY
+##### L #####,PROXY
+,PROXY
+# Land Emby,PROXY
 HOST-SUFFIX,emby.lcloud.wiki,PROXY
-
-##### M #####
-
-# MisakaF
+,PROXY
+##### M #####,PROXY
+,PROXY
+# MisakaF,PROXY
 HOST-SUFFIX,misakaf.org,PROXY
-
-# mjjemby
+,PROXY
+# mjjemby,PROXY
 HOST-SUFFIX,mjjemby.org,PROXY
-
-# Maying
+,PROXY
+# Maying,PROXY
 HOST-SUFFIX,emby.maying.club,PROXY
-
-##### N #####
-
-# ntRRR
+,PROXY
+##### N #####,PROXY
+,PROXY
+# ntRRR,PROXY
 HOST-SUFFIX,ntrrr.am.sb,PROXY
-
-# nexitally
+,PROXY
+# nexitally,PROXY
 HOST-SUFFIX,emby.nexitally.com,PROXY
-
-# Nebula
+,PROXY
+# Nebula,PROXY
 HOST-SUFFIX,nebula-emby.com,PROXY
-
-##### O #####
-
-# odyssey
+,PROXY
+##### O #####,PROXY
+,PROXY
+# odyssey,PROXY
 HOST-SUFFIX,cf.odysseyplus.site,PROXY
 HOST-SUFFIX,agahk.odysseyplus.site,PROXY
 HOST-SUFFIX,agasg.odysseyplus.site,PROXY
 HOST-SUFFIX,ru.odysseyplus.site,PROXY
-
-##### P #####
-
-# PiliPili 
+,PROXY
+##### P #####,PROXY
+,PROXY
+# PiliPili ,PROXY
 HOST-SUFFIX,pilipiliultra.top,PROXY
 HOST-SUFFIX,pilipiliultra.com,PROXY
-
-# pornemby
+,PROXY
+# pornemby,PROXY
 HOST-SUFFIX,pornemby.club,PROXY
 HOST-SUFFIX,s.ii00.cc,PROXY
 HOST-SUFFIX,us.ii00.cc,PROXY
 HOST-SUFFIX,jp.ii00.cc,PROXY
-
-# polo
+,PROXY
+# polo,PROXY
 HOST-SUFFIX,poloemby.xyz,PROXY
 HOST-SUFFIX,pololine.ml,PROXY
-
-# 品云
+,PROXY
+# 品云,PROXY
 HOST-SUFFIX,embyplus.club,PROXY
-
-# paoche
+,PROXY
+# paoche,PROXY
 HOST-SUFFIX,emby.cjpc.cc,PROXY
-
-# prpr
+,PROXY
+# prpr,PROXY
 HOST-SUFFIX,emby.prprcloud.com,PROXY
-
-# 普拉斯影业
+,PROXY
+# 普拉斯影业,PROXY
 HOST-SUFFIX,emby.plusmedia.site,PROXY
 HOST-SUFFIX,emby-cf.plusmedia.site,PROXY
 HOST-SUFFIX,emby-sg.plusmedia.site,PROXY
-
-##### Q #####
-
-##### R #####
-
-##### S #####
-
-# SYN
+,PROXY
+##### Q #####,PROXY
+,PROXY
+##### R #####,PROXY
+,PROXY
+##### S #####,PROXY
+,PROXY
+# SYN,PROXY
 HOST-SUFFIX,stream.synn.cc,PROXY
 HOST-SUFFIX,stream.ntrrr.top,PROXY
-
-# 私房菜Emby
+,PROXY
+# 私房菜Emby,PROXY
 HOST,notnetflix.cos.cat,PROXY
-
-# 守候网络Emby
+,PROXY
+# 守候网络Emby,PROXY
 HOST-SUFFIX,emby.cn2gias.uk,PROXY
 HOST-SUFFIX,post.cn2gias.uk,PROXY
-
-##### T #####
-
-# TreeDiagram
+,PROXY
+##### T #####,PROXY
+,PROXY
+# TreeDiagram,PROXY
 HOST-SUFFIX,123456.al,PROXY
-
-# 太空人
+,PROXY
+# 太空人,PROXY
 HOST-SUFFIX,tkremby.xyz,PROXY
-
-##### U #####
-
-##### V #####
-
-##### W #####
-
-##### X #####
-
-# 熊猫
+,PROXY
+##### U #####,PROXY
+,PROXY
+##### V #####,PROXY
+,PROXY
+##### W #####,PROXY
+,PROXY
+##### X #####,PROXY
+,PROXY
+# 熊猫,PROXY
 HOST-SUFFIX,embyclub.com,PROXY
 HOST-SUFFIX,az-hk.embyclub.com,PROXY
 HOST-SUFFIX,azsgp.embyclub.com,PROXY
-
-# xeton
+,PROXY
+# xeton,PROXY
 HOST-SUFFIX,emby.xeton.dev,PROXY
 HOST-SUFFIX,jellyfin.xeton.dev,PROXY
 HOST-SUFFIX,movie.xeton.dev,PROXY
 HOST-SUFFIX,servers.xeton.dev,PROXY
-
-##### Y #####
-
-# ytoo
+,PROXY
+##### Y #####,PROXY
+,PROXY
+# ytoo,PROXY
 HOST-SUFFIX,emby.ytoo.li,PROXY
-
-##### Z #####
-
-##### 0-9 #####
-
-##### 未分类 #####
-
+,PROXY
+##### Z #####,PROXY
+,PROXY
+##### 0-9 #####,PROXY
+,PROXY
+##### 未分类 #####,PROXY
+,PROXY
 HOST-SUFFIX,emby.mdss.cloud,PROXY
 HOST-SUFFIX,embyserver.ga,PROXY
 HOST-SUFFIX,emby.nyancat.net,PROXY

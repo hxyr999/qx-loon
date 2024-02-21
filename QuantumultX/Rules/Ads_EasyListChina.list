@@ -1,16 +1,16 @@
-## [Adblock Plus 2.0]
-## ! Title: EasyList China
-## ! Chinese supplement for the EasyList filters
-## ! Last modified: %timestamp%
-## ! Expires: 4 days (update frequency)
-## ! Homepage: https://github.com/easylist/easylistchina/
-## ! License: https://easylist.to/pages/licence.html
-## !
-## ! Please report any unblocked adverts or problems
-## ! on GitHub (https://github.com/easylist/easylistchina/issues)
-## ! or via e-mail (easylist.china@gmail.com).
-
-
+## [Adblock Plus 2.0],REJECT
+## ! Title: EasyList China,REJECT
+## ! Chinese supplement for the EasyList filters,REJECT
+## ! Last modified: %timestamp%,REJECT
+## ! Expires: 4 days (update frequency),REJECT
+## ! Homepage: https://github.com/easylist/easylistchina/,REJECT
+## ! License: https://easylist.to/pages/licence.html,REJECT
+## !,REJECT
+## ! Please report any unblocked adverts or problems,REJECT
+## ! on GitHub (https://github.com/easylist/easylistchina/issues),REJECT
+## ! or via e-mail (easylist.china@gmail.com).,REJECT
+,REJECT
+,REJECT
 HOST-SUFFIX,asd8900.oss-*.aliyuncs.com,REJECT
 HOST-SUFFIX,ky891.oss-*.aliyuncs.com,REJECT
 HOST-SUFFIX,tupian888.*.bcebos.com,REJECT

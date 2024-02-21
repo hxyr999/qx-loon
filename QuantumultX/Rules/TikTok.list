@@ -1,5 +1,5 @@
-# 内容：TikTok
-# 数量：11条
+# 内容：TikTok,PROXY
+# 数量：11条,PROXY
 USER-AGENT,TikTok*,PROXY
 HOST-KEYWORD,tiktokcdn,PROXY
 HOST-SUFFIX,byteoversea.com,PROXY

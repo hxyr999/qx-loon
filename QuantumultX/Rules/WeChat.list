@@ -1,5 +1,5 @@
-# 内容：Wechat 微信
-# 数量：22条
+# 内容：Wechat 微信,DIRECT
+# 数量：22条,DIRECT
 USER-AGENT,MicroMessenger*,DIRECT
 USER-AGENT,WeChat*,DIRECT
 HOST-SUFFIX,qlogo.cn,DIRECT

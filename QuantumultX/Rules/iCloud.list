@@ -1,9 +1,9 @@
-# NAME: iCloud
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# HOST-KEYWORD: 1
-# HOST-SUFFIX: 57
-# TOTAL: 58
+# NAME: iCloud,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# HOST-KEYWORD: 1,PROXY
+# HOST-SUFFIX: 57,PROXY
+# TOTAL: 58,PROXY
 HOST-SUFFIX,apple-cloudkit.com,PROXY
 HOST-SUFFIX,apple-icloud.cn,PROXY
 HOST-SUFFIX,apple-livephotoskit.com,PROXY

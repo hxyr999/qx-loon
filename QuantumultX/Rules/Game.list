@@ -1,11 +1,11 @@
-# NAME: Game
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# DOMAIN: 9
-# HOST-KEYWORD: 4
-# HOST-SUFFIX: 524
-# IP-CIDR: 46
-# TOTAL: 583
+# NAME: Game,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# DOMAIN: 9,PROXY
+# HOST-KEYWORD: 4,PROXY
+# HOST-SUFFIX: 524,PROXY
+# IP-CIDR: 46,PROXY
+# TOTAL: 583,PROXY
 HOST,eaasserts-a.akamaihd.net,PROXY
 HOST,originasserts.akamaized.net,PROXY
 HOST,gog.salesmanago.com,PROXY

@@ -1,12 +1,12 @@
-# 内容：国外媒体列表
-# 更新：2024-01-23 22:08:30
-# 数量：368条
-
-# ABC
+# 内容：国外媒体列表,PROXY
+# 更新：2024-01-23 22:08:30,PROXY
+# 数量：368条,PROXY
+,PROXY
+# ABC,PROXY
 HOST-SUFFIX,edgedatg.com,PROXY
 HOST-SUFFIX,go.com,PROXY
-
-# AbemaTV
+,PROXY
+# AbemaTV,PROXY
 USER-AGENT,AbemaTV*,PROXY
 HOST-KEYWORD,abematv.akamaized.net,PROXY
 HOST,api-abematv.bucketeer.jp,PROXY
@@ -16,13 +16,13 @@ HOST-SUFFIX,abema.tv,PROXY
 HOST-SUFFIX,ameba.jp,PROXY
 HOST-SUFFIX,hayabusa.io,PROXY
 HOST-SUFFIX,hayabusa.media,PROXY
-
-# All4
+,PROXY
+# All4,PROXY
 USER-AGENT,All4*,PROXY
 HOST-SUFFIX,c4assets.com,PROXY
 HOST-SUFFIX,channel4.com,PROXY
-
-# Amazon
+,PROXY
+# Amazon,PROXY
 HOST-KEYWORD,avoddashs,PROXY
 HOST,atv-ps.amazon.com,PROXY
 HOST,avodmp4s3ww-a.akamaihd.net,PROXY
@@ -45,19 +45,19 @@ HOST-SUFFIX,amazonvideo.com,PROXY
 HOST-SUFFIX,media-amazon.com,PROXY
 HOST-SUFFIX,pv-cdn.net,PROXY
 HOST-SUFFIX,seattlespheres.com,PROXY
-#URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
-
-# AppleNews
+#URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,PROXY
+,PROXY
+# AppleNews,PROXY
 USER-AGENT,AppleNews*,PROXY
 USER-AGENT,com.apple.news*,PROXY
 HOST,gspe1-ssl.ls.apple.com,PROXY
-
-# AppleTV
+,PROXY
+# AppleTV,PROXY
 HOST,np-edge.itunes.apple.com,PROXY
 HOST,play-edge.itunes.apple.com,PROXY
 HOST-SUFFIX,tv.apple.com,PROXY
-
-# BBCiPlayer
+,PROXY
+# BBCiPlayer,PROXY
 USER-AGENT,BBCiPlayer*,PROXY
 HOST-KEYWORD,bbcfmt,PROXY
 HOST-KEYWORD,uk-live,PROXY
@@ -73,22 +73,22 @@ HOST-SUFFIX,bbcfmt.hs.llnwd.net,PROXY
 HOST-SUFFIX,bbci.co,PROXY
 HOST-SUFFIX,bbci.co.uk,PROXY
 HOST-SUFFIX,bidi.net.uk,PROXY
-
-# Bahamut
+,PROXY
+# Bahamut,PROXY
 USER-AGENT,Anime*,PROXY
 HOST,bahamut.akamaized.net,PROXY
 HOST,gamer-cds.cdn.hinet.net,PROXY
 HOST,gamer2-cds.cdn.hinet.net,PROXY
 HOST-SUFFIX,bahamut.com.tw,PROXY
 HOST-SUFFIX,gamer.com.tw,PROXY
-
-# B_Global
+,PROXY
+# B_Global,PROXY
 USER-AGENT,app/bstar*,PROXY
 HOST-SUFFIX,bilibili.tv,PROXY
 HOST-SUFFIX,bstarstatic.com,PROXY
 HOST,pic-bstarstatic.akamaized.net,PROXY
-
-# DAZN
+,PROXY
+# DAZN,PROXY
 USER-AGENT,DAZN*,PROXY
 HOST-KEYWORD,voddazn,PROXY
 HOST,d151l6v8er5bdm.cloudfront.net,PROXY
@@ -101,18 +101,18 @@ HOST-SUFFIX,dcblivedazn.akamaized.net,PROXY
 HOST-SUFFIX,indazn.com,PROXY
 HOST-SUFFIX,indaznlab.com,PROXY
 HOST-SUFFIX,sentry.io,PROXY
-
-# Deezer
+,PROXY
+# Deezer,PROXY
 USER-AGENT,Deezer*,PROXY
 HOST-SUFFIX,deezer.com,PROXY
 HOST-SUFFIX,dzcdn.net,PROXY
-
-# DiscoveryPlus
+,PROXY
+# DiscoveryPlus,PROXY
 HOST-SUFFIX,disco-api.com,PROXY
 HOST-SUFFIX,discovery.com,PROXY
 HOST-SUFFIX,uplynk.com,PROXY
-
-# DisneyPlus
+,PROXY
+# DisneyPlus,PROXY
 USER-AGENT,Disney*,PROXY
 USER-AGENT,Disney+*,PROXY
 HOST,cdn.registerdisney.go.com,PROXY
@@ -135,22 +135,22 @@ HOST-SUFFIX,disneystreaming.com,PROXY
 HOST-SUFFIX,dssott.com,PROXY
 HOST-SUFFIX,execute-api.us-east-1.amazonaws.com,PROXY
 HOST-SUFFIX,js-agent.newrelic.com,PROXY
-
-# EncoreTVB
+,PROXY
+# EncoreTVB,PROXY
 USER-AGENT,encoreTVB*,PROXY
 HOST,bcbolt446c5271-a.akamaihd.net,PROXY
 HOST,content.jwplatform.com,PROXY
 HOST,edge.api.brightcove.com,PROXY
 HOST,videos-f.jwpsrv.com,PROXY
 HOST-SUFFIX,encoretvb.com,PROXY
-
-# FoxNow
+,PROXY
+# FoxNow,PROXY
 USER-AGENT,FOX%20NOW*,PROXY
 HOST-SUFFIX,fox.com,PROXY
 HOST-SUFFIX,foxdcg.com,PROXY
 HOST-SUFFIX,uplynk.com,PROXY
-
-# HBO
+,PROXY
+# HBO,PROXY
 USER-AGENT,HBO%20NOW*,PROXY
 USER-AGENT,HBOMAX*,PROXY
 HOST-SUFFIX,hbo.com,PROXY
@@ -158,8 +158,8 @@ HOST-SUFFIX,hbogo.com,PROXY
 HOST-SUFFIX,hbomax.com,PROXY
 HOST-SUFFIX,hbomaxcdn.com,PROXY
 HOST-SUFFIX,hbonow.com,PROXY
-
-# HBO_GO_HKG
+,PROXY
+# HBO_GO_HKG,PROXY
 USER-AGENT,HBO%20GO%20PROD*,PROXY
 HOST-KEYWORD,hbogoasia,PROXY
 HOST,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,PROXY
@@ -180,13 +180,13 @@ HOST,s3-ap-southeast-1.amazonaws.com,PROXY
 HOST-SUFFIX,hboasia.com,PROXY
 HOST-SUFFIX,hbogoasia.com,PROXY
 HOST-SUFFIX,hbogoasia.hk,PROXY
-
-# HWTV
+,PROXY
+# HWTV,PROXY
 USER-AGENT,HWTVMobile*,PROXY
 HOST-SUFFIX,5itv.tv,PROXY
 HOST-SUFFIX,ocnttv.com,PROXY
-
-# Hulu
+,PROXY
+# Hulu,PROXY
 HOST-SUFFIX,cws-hulu.conviva.com,PROXY
 HOST-SUFFIX,hulu.com,PROXY
 HOST-SUFFIX,hulu.hb.omtrdc.net,PROXY
@@ -194,28 +194,28 @@ HOST-SUFFIX,hulu.sc.omtrdc.net,PROXY
 HOST-SUFFIX,huluad.com,PROXY
 HOST-SUFFIX,huluim.com,PROXY
 HOST-SUFFIX,hulustream.com,PROXY
-
-# HuluJapan
+,PROXY
+# HuluJapan,PROXY
 HOST-SUFFIX,happyon.jp,PROXY
 HOST-SUFFIX,hjholdings.jp,PROXY
 HOST-SUFFIX,hulu.jp,PROXY
 HOST-SUFFIX,prod.hjholdings.tv,PROXY
 HOST-SUFFIX,streaks.jp,PROXY
 HOST-SUFFIX,yb.uncn.jp,PROXY
-
-# ITV
+,PROXY
+# ITV,PROXY
 USER-AGENT,ITV_Player*,PROXY
 HOST,itvpnpmobile-a.akamaihd.net,PROXY
 HOST-SUFFIX,itv.com,PROXY
 HOST-SUFFIX,itvstatic.com,PROXY
-
-# JOOX
+,PROXY
+# JOOX,PROXY
 USER-AGENT,JOOX*,PROXY
 USER-AGENT,WeMusic*,PROXY
 HOST-KEYWORD,jooxweb-api,PROXY
 HOST-SUFFIX,joox.com,PROXY
-
-# Japonx
+,PROXY
+# Japonx,PROXY
 HOST-KEYWORD,japonx,PROXY
 HOST-KEYWORD,japronx,PROXY
 HOST-SUFFIX,japonx.com,PROXY
@@ -226,39 +226,39 @@ HOST-SUFFIX,japronx.com,PROXY
 HOST-SUFFIX,japronx.net,PROXY
 HOST-SUFFIX,japronx.tv,PROXY
 HOST-SUFFIX,japronx.vip,PROXY
-
-# KKBOX
+,PROXY
+# KKBOX,PROXY
 HOST-SUFFIX,kfs.io,PROXY
 HOST-SUFFIX,kkbox.com,PROXY
 HOST-SUFFIX,kkbox.com.tw,PROXY
-
-# KKTV
+,PROXY
+# KKTV,PROXY
 USER-AGENT,KKTV*,PROXY
 USER-AGENT,com.kktv.ios.kktv*,PROXY
 HOST,kktv-theater.kk.stream,PROXY
 HOST,theater-kktv.cdn.hinet.net,PROXY
 HOST-SUFFIX,kktv.com.tw,PROXY
 HOST-SUFFIX,kktv.me,PROXY
-
-# LiTV
+,PROXY
+# LiTV,PROXY
 HOST,litvfreemobile-hichannel.cdn.hinet.net,PROXY
 HOST-SUFFIX,litv.tv,PROXY
-
-# LineTV
+,PROXY
+# LineTV,PROXY
 USER-AGENT,LINE%20TV*,PROXY
 USER-AGENT,LINE*,PROXY
 HOST,d3c7rimkq79yfu.cloudfront.net,PROXY
 HOST-SUFFIX,d3c7rimkq79yfu.cloudfront.net,PROXY
 HOST-SUFFIX,linetv.tw,PROXY
 HOST-SUFFIX,profile.line-scdn.net,PROXY
-
-# My5
+,PROXY
+# My5,PROXY
 USER-AGENT,My5*,PROXY
 HOST,d349g9zuie06uo.cloudfront.net,PROXY
 HOST-SUFFIX,channel5.com,PROXY
 HOST-SUFFIX,my5.tv,PROXY
-
-# MyTVSuper
+,PROXY
+# MyTVSuper,PROXY
 USER-AGENT,mytv*,PROXY
 HOST-KEYWORD,nowtv100,PROXY
 HOST-KEYWORD,rthklive,PROXY
@@ -266,8 +266,8 @@ HOST,mytvsuperlimited.hb.omtrdc.net,PROXY
 HOST,mytvsuperlimited.sc.omtrdc.net,PROXY
 HOST-SUFFIX,mytvsuper.com,PROXY
 HOST-SUFFIX,tvb.com,PROXY
-
-# Netflix
+,PROXY
+# Netflix,PROXY
 USER-AGENT,Argo*,PROXY
 HOST-KEYWORD,apiproxy-device-prod-nlb-,PROXY
 HOST-KEYWORD,dualstack.apiproxy-,PROXY
@@ -309,14 +309,14 @@ IP-CIDR,198.45.48.0/20,PROXY
 IP-CIDR,203.75.84.0/24,PROXY
 IP-CIDR,207.45.72.0/22,PROXY
 IP-CIDR,208.75.76.0/22,PROXY
-
-# Niconico
+,PROXY
+# Niconico,PROXY
 USER-AGENT,Niconico*,PROXY
 HOST-SUFFIX,dmc.nico,PROXY
 HOST-SUFFIX,nicovideo.jp,PROXY
 HOST-SUFFIX,nimg.jp,PROXY
-
-# NivodTV
+,PROXY
+# NivodTV,PROXY
 HOST-KEYWORD,nivod,PROXY
 HOST-SUFFIX,biggggg.com,PROXY
 HOST-SUFFIX,mudvod.tv,PROXY
@@ -328,8 +328,8 @@ HOST-SUFFIX,nivod.tv,PROXY
 HOST-SUFFIX,nivodi.tv,PROXY
 HOST-SUFFIX,nivodz.com,PROXY
 HOST-SUFFIX,vod360.net,PROXY
-
-# Olevod
+,PROXY
+# Olevod,PROXY
 HOST-KEYWORD,olevod,PROXY
 HOST-SUFFIX,haiwaikan.com,PROXY
 HOST-SUFFIX,iole.tv,PROXY
@@ -339,8 +339,8 @@ HOST-SUFFIX,olevod.com,PROXY
 HOST-SUFFIX,olevod.io,PROXY
 HOST-SUFFIX,olevod.tv,PROXY
 HOST-SUFFIX,olevodtv.com,PROXY
-
-# OpenAi
+,PROXY
+# OpenAi,PROXY
 HOST-KEYWORD,openai,PROXY
 HOST-SUFFIX,auth0.com,PROXY
 HOST-SUFFIX,challenges.cloudflare.com,PROXY
@@ -356,31 +356,31 @@ HOST-SUFFIX,openai.com,PROXY
 HOST-SUFFIX,openaiapi-site.azureedge.net,PROXY
 HOST-SUFFIX,sentry.io,PROXY
 HOST-SUFFIX,stripe.com,PROXY
-
-# PBS
+,PROXY
+# PBS,PROXY
 USER-AGENT,PBS*,PROXY
 HOST-SUFFIX,pbs.org,PROXY
-
-# Pandora
+,PROXY
+# Pandora,PROXY
 USER-AGENT,Pandora*,PROXY
 HOST-SUFFIX,pandora.com,PROXY
-
-# Pornhub
+,PROXY
+# Pornhub,PROXY
 HOST-SUFFIX,phncdn.com,PROXY
 HOST-SUFFIX,phprcdn.com,PROXY
 HOST-SUFFIX,pornhub.com,PROXY
 HOST-SUFFIX,pornhubpremium.com,PROXY
-
-# Qobuz
+,PROXY
+# Qobuz,PROXY
 HOST-SUFFIX,qobuz.com,PROXY
-
-# SoundCloud
+,PROXY
+# SoundCloud,PROXY
 USER-AGENT,SoundCloud*,PROXY
 HOST-SUFFIX,p-cdn.us,PROXY
 HOST-SUFFIX,sndcdn.com,PROXY
 HOST-SUFFIX,soundcloud.com,PROXY
-
-# Spotify
+,PROXY
+# Spotify,PROXY
 USER-AGENT,Spotify*,PROXY
 HOST-KEYWORD,-spotify-,PROXY
 HOST-KEYWORD,spotify.com,PROXY
@@ -390,19 +390,19 @@ HOST-SUFFIX,spoti.fi,PROXY
 HOST-SUFFIX,spotify.com,PROXY
 HOST-SUFFIX,spotifycdn.com,PROXY
 HOST-SUFFIX,spotifycdn.net,PROXY
-
-# TIDAL
+,PROXY
+# TIDAL,PROXY
 USER-AGENT,TIDAL*,PROXY
 HOST-SUFFIX,tidal-cms.s3.amazonaws.com,PROXY
 HOST-SUFFIX,tidal.com,PROXY
 HOST-SUFFIX,tidalhifi.com,PROXY
-
-# TaiWanGood 台湾好
+,PROXY
+# TaiWanGood 台湾好,PROXY
 USER-AGENT,TaiwanGood*,PROXY
 HOST,hamifans.emome.net,PROXY
 HOST-SUFFIX,skyking.com.tw,PROXY
-
-# TikTok
+,PROXY
+# TikTok,PROXY
 USER-AGENT,TikTok*,PROXY
 HOST-KEYWORD,tiktokcdn,PROXY
 HOST-SUFFIX,byteoversea.com,PROXY
@@ -414,8 +414,8 @@ HOST-SUFFIX,tik-tokapi.com,PROXY
 HOST-SUFFIX,tiktok.com,PROXY
 HOST-SUFFIX,tiktokcdn.com,PROXY
 HOST-SUFFIX,tiktokv.com,PROXY
-
-# Twitch
+,PROXY
+# Twitch,PROXY
 HOST-KEYWORD,ttvnw,PROXY
 HOST-SUFFIX,ext-twitch.tv,PROXY
 HOST-SUFFIX,jtvnw.net,PROXY
@@ -423,12 +423,12 @@ HOST-SUFFIX,ttvnw.net,PROXY
 HOST-SUFFIX,twitch-ext.rootonline.de,PROXY
 HOST-SUFFIX,twitch.tv,PROXY
 HOST-SUFFIX,twitchcdn.net,PROXY
-
-# ViuTV
+,PROXY
+# ViuTV,PROXY
 USER-AGENT,Viu*,PROXY
-#PROCESS-NAME,com.viu.pad
-#PROCESS-NAME,com.viu.phone
-#PROCESS-NAME,com.vuclip.viu
+#PROCESS-NAME,com.viu.pad,PROXY
+#PROCESS-NAME,com.viu.phone,PROXY
+#PROCESS-NAME,com.vuclip.viu,PROXY
 HOST,api.viu.now.com,PROXY
 HOST,d1k2us671qcoau.cloudfront.net,PROXY
 HOST,d2anahhhmp1ffz.cloudfront.net,PROXY
@@ -441,8 +441,8 @@ HOST-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,PROXY
 HOST-SUFFIX,viu.com,PROXY
 HOST-SUFFIX,viu.now.com,PROXY
 HOST-SUFFIX,viu.tv,PROXY
-
-# YouTube
+,PROXY
+# YouTube,PROXY
 USER-AGENT,*youtube*,PROXY
 USER-AGENT,YouTube*,PROXY
 USER-AGENT,com.google.ios.youtube*,PROXY
@@ -460,8 +460,8 @@ HOST-SUFFIX,youtubegaming.com,PROXY
 HOST-SUFFIX,youtubekids.com,PROXY
 HOST-SUFFIX,yt.be,PROXY
 HOST-SUFFIX,ytimg.com,PROXY
-
-# YouTubeMusic
+,PROXY
+# YouTubeMusic,PROXY
 USER-AGENT,*YouTubeMusic*,PROXY
 USER-AGENT,*com.google.ios.youtubemusic*,PROXY
 USER-AGENT,YouTubeMusic*,PROXY

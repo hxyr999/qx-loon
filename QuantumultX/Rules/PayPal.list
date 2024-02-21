@@ -1,10 +1,10 @@
-# NAME: PayPal
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# HOST-KEYWORD: 1
-# HOST-SUFFIX: 246
-# USER-AGENT: 1
-# TOTAL: 248
+# NAME: PayPal,PROXY
+# AUTHOR: blackmatrix7,PROXY
+# REPO: https://github.com/blackmatrix7/ios_rule_script,PROXY
+# HOST-KEYWORD: 1,PROXY
+# HOST-SUFFIX: 246,PROXY
+# USER-AGENT: 1,PROXY
+# TOTAL: 248,PROXY
 HOST-SUFFIX,account-paypal.info,PROXY
 HOST-SUFFIX,account-paypal.net,PROXY
 HOST-SUFFIX,account-paypal.org,PROXY
